@@ -4,4 +4,8 @@
 *.bibtex
 *.gbw
 *.bas*
+!mrchem.bas
 *.hostnames
+*opt_trj.xyz
+*.engrad
+*.carthess
