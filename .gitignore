@@ -1,0 +1,7 @@
+*.tmp*
+*.property.txt
+*.densities*
+*.bibtex
+*.gbw
+*.bas*
+*.hostnames
