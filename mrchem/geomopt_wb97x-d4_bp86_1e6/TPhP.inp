@@ -39,6 +39,11 @@ SCF {
   energy_thrs = 1.0e-04
 }
 
+Files {
+  guess_basis = "mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas"
+  guess_gto_p = "mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.mop"
+}
+
 Molecule {
   translate = false
   charge = 0
@@ -78,6 +83,5 @@ $coords
   H          -5.33731930768447      4.68970624672592      1.84008686276579
   H          -2.40405926124844      6.12091337191859     -0.98139595205205
   H          -4.31454327431425      6.56841726242196      0.56048098144235
-
 $end
 }
