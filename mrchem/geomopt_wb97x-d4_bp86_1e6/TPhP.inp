@@ -40,8 +40,8 @@ SCF {
 }
 
 Files {
-  guess_basis = "mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas"
-  guess_gto_p = "mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.mop"
+  guess_basis = "/cluster/projects/nn14654k/ylvaos/TPhP_bsse/mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas"
+  guess_gto_p = "/cluster/projects/nn14654k/ylvaos/TPhP_bsse/mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.mop"
 }
 
 Molecule {

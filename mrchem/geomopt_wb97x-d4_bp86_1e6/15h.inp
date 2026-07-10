@@ -39,6 +39,11 @@ SCF {
   energy_thrs = 1.0e-04
 }
 
+Files {
+  guess_basis = "/cluster/projects/nn14654k/ylvaos/TPhP_bsse/mrchem/initial_guess/geomopt_wb97x-d4/15h_opt/mrchem.bas"
+  guess_gto_p = "/cluster/projects/nn14654k/ylvaos/TPhP_bsse/mrchem/initial_guess/geomopt_wb97x-d4/15h_opt/mrchem.mop"
+}
+
 Molecule {
   translate = false
   charge = 0

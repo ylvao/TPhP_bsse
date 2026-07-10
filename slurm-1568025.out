@@ -1,0 +1,568 @@
+Starting job 1568025 on b[3230-3233,3237-3240] on Betzy at Thu Jul 9 15:13:35 CEST 2026
+
+launch command:  /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x TPhP.json > TPhP.out
+[b3230:79502] *** Process received signal ***
+[b3230:79502] Signal: Aborted (6)
+[b3230:79502] Signal code:  (-6)
+[b3230:79500] *** Process received signal ***
+[b3230:79500] Signal: Aborted (6)
+[b3230:79500] Signal code:  (-6)
+[b3232:1663798] *** Process received signal ***
+[b3232:1663798] Signal: Aborted (6)
+[b3232:1663798] Signal code:  (-6)
+[b3232:1663802] *** Process received signal ***
+[b3232:1663802] Signal: Aborted (6)
+[b3232:1663802] Signal code:  (-6)
+[b3231:11231] *** Process received signal ***
+[b3231:11231] Signal: Aborted (6)
+[b3231:11231] Signal code:  (-6)
+[b3238:3820830] *** Process received signal ***
+[b3238:3820830] Signal: Aborted (6)
+[b3238:3820830] Signal code:  (-6)
+[b3230:79501] *** Process received signal ***
+[b3230:79501] Signal: Aborted (6)
+[b3230:79501] Signal code:  (-6)
+[b3231:11230] *** Process received signal ***
+[b3231:11230] Signal: Aborted (6)
+[b3231:11230] Signal code:  (-6)
+[b3237:414166] *** Process received signal ***
+[b3237:414166] Signal: Aborted (6)
+[b3237:414166] Signal code:  (-6)
+[b3233:923091] *** Process received signal ***
+[b3233:923091] Signal: Aborted (6)
+[b3233:923091] Signal code:  (-6)
+[b3232:1663801] *** Process received signal ***
+[b3232:1663801] Signal: Aborted (6)
+[b3232:1663801] Signal code:  (-6)
+[b3238:3820826] *** Process received signal ***
+[b3238:3820826] Signal: Aborted (6)
+[b3238:3820826] Signal code:  (-6)
+[b3237:414163] *** Process received signal ***
+[b3237:414163] Signal: Aborted (6)
+[b3237:414163] Signal code:  (-6)
+[b3239:75013] *** Process received signal ***
+[b3239:75013] Signal: Aborted (6)
+[b3239:75013] Signal code:  (-6)
+[b3231:11232] *** Process received signal ***
+[b3231:11232] Signal: Aborted (6)
+[b3231:11232] Signal code:  (-6)
+[b3238:3820828] *** Process received signal ***
+[b3238:3820828] Signal: Aborted (6)
+[b3238:3820828] Signal code:  (-6)
+[b3233:923090] *** Process received signal ***
+[b3233:923090] Signal: Aborted (6)
+[b3233:923090] Signal code:  (-6)
+[b3240:49391] *** Process received signal ***
+[b3240:49391] Signal: Aborted (6)
+[b3240:49391] Signal code:  (-6)
+[b3232:1663799] *** Process received signal ***
+[b3232:1663799] Signal: Aborted (6)
+[b3232:1663799] Signal code:  (-6)
+[b3237:414162] *** Process received signal ***
+[b3237:414162] Signal: Aborted (6)
+[b3237:414162] Signal code:  (-6)
+[b3231:11229] *** Process received signal ***
+[b3231:11229] Signal: Aborted (6)
+[b3231:11229] Signal code:  (-6)
+[b3238:3820825] *** Process received signal ***
+[b3238:3820825] Signal: Aborted (6)
+[b3238:3820825] Signal code:  (-6)
+[b3233:923092] *** Process received signal ***
+[b3233:923092] Signal: Aborted (6)
+[b3233:923092] Signal code:  (-6)
+[b3240:49389] *** Process received signal ***
+[b3240:49389] Signal: Aborted (6)
+[b3240:49389] Signal code:  (-6)
+[b3239:75012] *** Process received signal ***
+[b3239:75012] Signal: Aborted (6)
+[b3239:75012] Signal code:  (-6)
+[b3239:75012] [ 0] [b3237:414165] *** Process received signal ***
+[b3237:414165] Signal: Aborted (6)
+[b3237:414165] Signal code:  (-6)
+[b3233:923093] *** Process received signal ***
+[b3233:923093] Signal: Aborted (6)
+[b3233:923093] Signal code:  (-6)
+[b3240:49390] *** Process received signal ***
+[b3240:49390] Signal: Aborted (6)
+[b3240:49390] Signal code:  (-6)
+[b3239:75011] *** Process received signal ***
+[b3239:75011] Signal: Aborted (6)
+[b3239:75011] Signal code:  (-6)
+[b3239:75011] [ 0] /lib64/libc.so.6(+0x54db0)[0x15048f654db0]
+[b3239:75011] [ 1] /lib64/libc.so.6(+0xa154c)[0x15048f6a154c]
+[b3239:75011] [ 2] [b3239:75013] [ 0] /lib64/libc.so.6(+0x54db0)[0x14cf84054db0]
+[b3239:75013] [ 1] /lib64/libc.so.6(+0xa154c)[0x14cf840a154c]
+[b3239:75013] [ 2] /lib64/libc.so.6(raise+0x16)[0x14cf84054d06]
+[b3239:75013] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14cf840287f3]
+[b3239:75013] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3239:75013] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3239:75013] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3239:75013] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3239:75013] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3239:75013] [ 9] [b3240:49388] *** Process received signal ***
+[b3240:49388] Signal: Aborted (6)
+[b3240:49388] Signal code:  (-6)
+[b3239:75010] *** Process received signal ***
+[b3239:75010] Signal: Aborted (6)
+[b3239:75010] Signal code:  (-6)
+[b3239:75010] [ 0] /lib64/libc.so.6(+0x54db0)[0x14c6e6654db0]
+[b3239:75012] [ 1] /lib64/libc.so.6(+0xa154c)[0x14c6e66a154c]
+[b3239:75012] [ 2] /lib64/libc.so.6(raise+0x16)[0x14c6e6654d06]
+[b3239:75012] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14c6e66287f3]
+[b3239:75012] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3239:75012] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3239:75012] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3239:75012] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3239:75012] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3239:75012] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14c6e663feb0]
+[b3239:75012] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14c6e663ff60]
+[b3239:75012] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3239:75012] *** End of error message ***
+/lib64/libc.so.6(raise+0x16)[0x15048f654d06]
+[b3239:75011] [ 3] /lib64/libc.so.6(abort+0xd3)[0x15048f6287f3]
+[b3239:75011] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3239:75011] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3239:75011] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3239:75011] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3239:75011] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3239:75011] [ 9] /lib64/libc.so.6(+0x3feb0)[0x15048f63feb0]
+[b3239:75011] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x15048f63ff60]
+[b3239:75011] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3239:75011] *** End of error message ***
+/lib64/libc.so.6(+0x3feb0)[0x14cf8403feb0]
+[b3239:75013] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14cf8403ff60]
+[b3239:75013] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3239:75013] *** End of error message ***
+/lib64/libc.so.6(+0x54db0)[0x150f9b454db0]
+[b3239:75010] [ 1] /lib64/libc.so.6(+0xa154c)[0x150f9b4a154c]
+[b3239:75010] [ 2] /lib64/libc.so.6(raise+0x16)[0x150f9b454d06]
+[b3239:75010] [ 3] /lib64/libc.so.6(abort+0xd3)[0x150f9b4287f3]
+[b3239:75010] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3239:75010] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3239:75010] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3239:75010] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3239:75010] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3239:75010] [ 9] /lib64/libc.so.6(+0x3feb0)[0x150f9b43feb0]
+[b3239:75010] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x150f9b43ff60]
+[b3239:75010] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3239:75010] *** End of error message ***
+[b3231:11230] [ 0] /lib64/libc.so.6(+0x54db0)[0x149522e54db0]
+[b3231:11230] [ 1] [b3231:11231] [ 0] /lib64/libc.so.6(+0x54db0)[0x14ea8d254db0]
+[b3231:11231] [ 1] [b3231:11232] [ 0] /lib64/libc.so.6(+0x54db0)[0x148979054db0]
+[b3231:11232] [ 1] [b3231:11229] [ 0] /lib64/libc.so.6(+0x54db0)[0x14debf654db0]
+[b3231:11229] [ 1] /lib64/libc.so.6(+0xa154c)[0x14debf6a154c]
+[b3231:11229] [ 2] /lib64/libc.so.6(+0xa154c)[0x149522ea154c]
+[b3231:11230] [ 2] /lib64/libc.so.6(raise+0x16)[0x149522e54d06]
+[b3231:11230] [ 3] /lib64/libc.so.6(abort+0xd3)[0x149522e287f3]
+[b3231:11230] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3231:11230] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3231:11230] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3231:11230] [ 7] /lib64/libc.so.6(+0xa154c)[0x14ea8d2a154c]
+[b3231:11231] [ 2] /lib64/libc.so.6(raise+0x16)[0x14ea8d254d06]
+[b3231:11231] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14ea8d2287f3]
+[b3231:11231] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3231:11231] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3231:11231] [ 6] /lib64/libc.so.6(+0xa154c)[0x1489790a154c]
+[b3231:11232] [ 2] /lib64/libc.so.6(raise+0x16)[0x148979054d06]
+[b3231:11232] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1489790287f3]
+[b3231:11232] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3231:11232] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3231:11232] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3231:11232] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3231:11232] [ 8] /lib64/libc.so.6(raise+0x16)[0x14debf654d06]
+[b3231:11229] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14debf6287f3]
+[b3231:11229] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3231:11229] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3231:11229] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3231:11229] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3231:11229] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3231:11229] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14debf63feb0]
+[b3231:11229] [10] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3231:11230] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3231:11230] [ 9] /lib64/libc.so.6(+0x3feb0)[0x149522e3feb0]
+[b3231:11230] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x149522e3ff60]
+[b3231:11230] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3231:11230] *** End of error message ***
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3231:11231] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3231:11231] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3231:11231] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14ea8d23feb0]
+[b3231:11231] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14ea8d23ff60]
+[b3231:11231] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3231:11231] *** End of error message ***
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3231:11232] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14897903feb0]
+[b3231:11232] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14897903ff60]
+[b3231:11232] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3231:11232] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0x80)[0x14debf63ff60]
+[b3231:11229] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3231:11229] *** End of error message ***
+[b3230:79502] [ 0] [b3230:79500] [ 0] /lib64/libc.so.6(+0x54db0)[0x14d948454db0]
+[b3230:79501] [ 0] /lib64/libc.so.6(+0x54db0)[0x148ae9254db0]
+[b3230:79502] [ 1] [b3230:79500] [ 1] [b3238:3820830] [ 0] /lib64/libc.so.6(+0x54db0)[0x148baf654db0]
+[b3230:79501] [ 1] /lib64/libc.so.6(+0xa154c)[0x148ae92a154c]
+[b3230:79502] [ 2] /lib64/libc.so.6(raise+0x16)[0x148ae9254d06]
+[b3230:79502] /lib64/libc.so.6(+0xa154c)[0x14d9484a154c]
+[b3230:79500] [ 2] /lib64/libc.so.6(+0xa154c)[0x148baf6a154c]
+[b3230:79501] [ 2] [ 3] /lib64/libc.so.6(raise+0x16)[0x14d948454d06]
+[b3230:79500] [ 3] /lib64/libc.so.6(abort+0xd3)[0x148ae92287f3]
+[b3230:79502] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3230:79502] [ 5] /lib64/libc.so.6(raise+0x16)[0x148baf654d06]
+[b3230:79501] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14d9484287f3]
+[b3230:79500] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3230:79500] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3230:79502] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3230:79502] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3230:79502] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3230:79500] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3230:79500] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3230:79500] [ 8] /lib64/libc.so.6(abort+0xd3)[0x148baf6287f3]
+[b3230:79501] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3230:79501] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3230:79501] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3230:79501] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3230:79501] [ 8] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3230:79502] [ 9] /lib64/libc.so.6(+0x3feb0)[0x148ae923feb0]
+[b3230:79502] [10] [b3233:923090] [ 0] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3230:79500] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14d94843feb0]
+[b3230:79500] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14d94843ff60]
+[b3230:79500] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3230:79501] [ 9] /lib64/libc.so.6(+0x3feb0)[0x148baf63feb0]
+[b3230:79501] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x148baf63ff60]
+[b3230:79501] [b3233:923091] [ 0] [b3238:3820828] [ 0] [b3240:49391] [ 0] /lib64/libc.so.6(__libc_start_main+0x80)[0x148ae923ff60]
+[b3230:79502] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3230:79502] *** End of error message ***
+[b3230:79500] *** End of error message ***
+[11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3230:79501] *** End of error message ***
+/lib64/libc.so.6(+0x54db0)[0x1548ee054db0]
+[b3238:3820830] [ 1] [b3237:414166] [ 0] [b3238:3820825] [ 0] [b3237:414163] [ 0] [b3233:923092] [ 0] [b3232:1663798] [ 0] [b3238:3820826] [ 0] /lib64/libc.so.6(+0x54db0)[0x14704b854db0]
+[b3238:3820826] [ 1] [b3237:414162] [ 0] /lib64/libc.so.6(+0x54db0)[0x14c29f654db0]
+[b3233:923090] [ 1] /lib64/libc.so.6(+0xa154c)[0x14c29f6a154c]
+[b3232:1663802] [ 0] /lib64/libc.so.6(+0x54db0)[0x14ef17e54db0]
+[b3232:1663802] /lib64/libc.so.6(+0x54db0)[0x155034854db0]
+[b3238:3820828] [ 1] /lib64/libc.so.6(+0xa154c)[0x1550348a154c]
+[b3238:3820828] [ 2] [b3233:923093] [ 0] [b3232:1663801] [ 0] /lib64/libc.so.6(+0x54db0)[0x146e8ca54db0]
+[b3232:1663801] [ 1] /lib64/libc.so.6(+0xa154c)[0x1548ee0a154c]
+[b3238:3820830] [ 2] /lib64/libc.so.6(raise+0x16)[0x1548ee054d06]
+[b3238:3820830] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1548ee0287f3]
+[b3238:3820830] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3238:3820830] [ 5] /lib64/libc.so.6(+0x54db0)[0x1515ddc54db0]
+[b3233:923091] [ 1] /lib64/libc.so.6(+0x54db0)[0x14cee0854db0]
+[b3238:3820825] [ 1] /lib64/libc.so.6(+0xa154c)[0x14cee08a154c]
+[b3238:3820825] [ 2] /lib64/libc.so.6(+0x54db0)[0x14ae9d054db0]
+[b3233:923092] [ 1] /lib64/libc.so.6(+0xa154c)[0x14ae9d0a154c]
+[b3233:923092] [ 2] /lib64/libc.so.6(+0xa154c)[0x14704b8a154c]
+[b3238:3820826] [ 2] /lib64/libc.so.6(raise+0x16)[0x14704b854d06]
+[b3238:3820826] [ 3] /lib64/libc.so.6(raise+0x16)[0x155034854d06]
+[b3238:3820828] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1550348287f3]
+[b3238:3820828] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3238:3820828] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3238:3820828] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3238:3820828] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3238:3820828] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3238:3820828] [ 9] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3238:3820830] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3238:3820830] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3238:3820830] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3238:3820830] [ 9] /lib64/libc.so.6(+0x3feb0)[0x1548ee03feb0]
+[b3238:3820830] [10] /lib64/libc.so.6(raise+0x16)[0x14cee0854d06]
+[b3238:3820825] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14cee08287f3]
+[b3238:3820825] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3238:3820825] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3238:3820825] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3238:3820825] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3238:3820825] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3238:3820825] [ 9] /lib64/libc.so.6(abort+0xd3)[0x14704b8287f3]
+[b3238:3820826] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3238:3820826] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3238:3820826] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3238:3820826] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3238:3820826] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3238:3820826] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14704b83feb0]
+[b3238:3820826] [10] /lib64/libc.so.6(+0x3feb0)[0x15503483feb0]
+[b3238:3820828] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x15503483ff60]
+[b3238:3820828] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3238:3820828] *** End of error message ***
+[b3233:923090] [ 2] /lib64/libc.so.6(raise+0x16)[0x14c29f654d06]
+[b3233:923090] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14c29f6287f3]
+[b3233:923090] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3233:923090] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3233:923090] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3233:923090] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3233:923090] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3233:923090] [b3232:1663799] [ 0] /lib64/libc.so.6(+0x54db0)[0x146ce4c54db0]
+[b3232:1663799] [ 1] [b3237:414165] [ 0] /lib64/libc.so.6(+0x54db0)[0x150101254db0]
+[b3237:414165] [ 1] [b3240:49389] [ 0] /lib64/libc.so.6(__libc_start_main+0x80)[0x1548ee03ff60]
+[b3238:3820830] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3238:3820830] *** End of error message ***
+/lib64/libc.so.6(+0x54db0)[0x14a3db854db0]
+[b3233:923093] [ 1] /lib64/libc.so.6(+0x54db0)[0x15129d254db0]
+[b3232:1663798] [ 1] /lib64/libc.so.6(+0xa154c)[0x15129d2a154c]
+[b3232:1663798] [ 2] /lib64/libc.so.6(+0x54db0)[0x148182454db0]
+[b3237:414166] [ 1] /lib64/libc.so.6(+0xa154c)[0x1481824a154c]
+[b3237:414166] [ 2] [b3240:49390] [ 0] /lib64/libc.so.6(+0x3feb0)[0x14cee083feb0]
+[b3238:3820825] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14cee083ff60]
+[b3238:3820825] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3238:3820825] *** End of error message ***
+/lib64/libc.so.6(+0xa154c)[0x1515ddca154c]
+[b3233:923091] [ 2] /lib64/libc.so.6(raise+0x16)[0x1515ddc54d06]
+[b3233:923091] [ 3] [ 1] /lib64/libc.so.6(+0xa154c)[0x14ef17ea154c]
+[b3232:1663802] [ 2] /lib64/libc.so.6(+0x54db0)[0x152471854db0]
+[b3237:414163] [ 1] /lib64/libc.so.6(+0xa154c)[0x1524718a154c]
+[b3237:414163] [ 2] [b3240:49388] [ 0] /lib64/libc.so.6(__libc_start_main+0x80)[0x14704b83ff60]
+[b3238:3820826] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3238:3820826] *** End of error message ***
+/lib64/libc.so.6(raise+0x16)[0x14ae9d054d06]
+[b3233:923092] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14ae9d0287f3]
+[b3233:923092] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3233:923092] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3233:923092] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3233:923092] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3233:923092] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3233:923092] [ 9] /lib64/libc.so.6(+0xa154c)[0x146e8caa154c]
+[b3232:1663801] [ 2] /lib64/libc.so.6(raise+0x16)[0x146e8ca54d06]
+[b3232:1663801] [ 3] /lib64/libc.so.6(+0x54db0)[0x14b0d9a54db0]
+[b3237:414162] [ 1] /lib64/libc.so.6(+0xa154c)[0x14b0d9aa154c]
+[b3237:414162] [ 2] /lib64/libc.so.6(+0x54db0)[0x14961f454db0]
+[b3240:49391] [ 1] /lib64/libc.so.6(+0xa154c)[0x14961f4a154c]
+[b3240:49391] [ 2] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14c29f63feb0]
+[b3233:923090] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14c29f63ff60]
+[b3233:923090] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3233:923090] *** End of error message ***
+/lib64/libc.so.6(raise+0x16)[0x15129d254d06]
+[b3232:1663798] [ 3] /lib64/libc.so.6(abort+0xd3)[0x15129d2287f3]
+[b3232:1663798] [ 4] /lib64/libc.so.6(raise+0x16)[0x148182454d06]
+[b3237:414166] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1481824287f3]
+[b3237:414166] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3237:414166] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3237:414166] [ 6] /lib64/libc.so.6(+0x54db0)[0x14a65de54db0]
+[b3240:49389] [ 1] /lib64/libc.so.6(+0xa154c)[0x14a3db8a154c]
+[b3233:923093] [ 2] /lib64/libc.so.6(raise+0x16)[0x14a3db854d06]
+[b3233:923093] [ 3] /lib64/libc.so.6(+0xa154c)[0x146ce4ca154c]
+[b3232:1663799] [ 2] /lib64/libc.so.6(raise+0x16)[0x146ce4c54d06]
+[b3232:1663799] [ 3] /lib64/libc.so.6(+0xa154c)[0x1501012a154c]
+[b3237:414165] [ 2] /lib64/libc.so.6(raise+0x16)[0x150101254d06]
+[b3237:414165] [ 3] /lib64/libc.so.6(+0x54db0)[0x1482fac54db0]
+[b3240:49390] [ 1] /lib64/libc.so.6(+0xa154c)[0x1482faca154c]
+[b3240:49390] /lib64/libc.so.6(+0x3feb0)[0x14ae9d03feb0]
+[b3233:923092] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14ae9d03ff60]
+[b3233:923092] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3233:923092] *** End of error message ***
+/lib64/libc.so.6(raise+0x16)[0x14ef17e54d06]
+[b3232:1663802] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14ef17e287f3]
+[b3232:1663802] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3232:1663802] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+/lib64/libc.so.6(raise+0x16)[0x152471854d06]
+[b3237:414163] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1524718287f3]
+[b3237:414163] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3237:414163] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3237:414163] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3237:414163] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3237:414163] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3237:414163] /lib64/libc.so.6(+0x54db0)[0x152e30a54db0]
+[b3240:49388] [ 1] /lib64/libc.so.6(+0xa154c)[0x152e30aa154c]
+[b3240:49388] [ 2] /lib64/libc.so.6(abort+0xd3)[0x1515ddc287f3]
+[b3233:923091] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3233:923091] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3233:923091] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3233:923091] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3233:923091] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3233:923091] /lib64/libc.so.6(abort+0xd3)[0x146e8ca287f3]
+[b3232:1663801] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3232:1663801] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3232:1663801] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3232:1663801] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3232:1663801] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3232:1663801] [ 9] /lib64/libc.so.6(raise+0x16)[0x14b0d9a54d06]
+[b3237:414162] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14b0d9a287f3]
+[b3237:414162] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3237:414162] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3237:414162] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3237:414162] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3237:414162] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3237:414162] [ 9] /lib64/libc.so.6(+0xa154c)[0x14a65dea154c]
+[b3240:49389] [ 2] /lib64/libc.so.6(raise+0x16)[0x14a65de54d06]
+[b3240:49389] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14a3db8287f3]
+[b3233:923093] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3233:923093] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3233:923093] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3233:923093] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3232:1663798] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3232:1663798] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3232:1663798] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3232:1663798] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3232:1663798] [ 9] /lib64/libc.so.6(+0x3feb0)[0x15129d23feb0]
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3237:414166] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3237:414166] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3237:414166] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14818243feb0]
+[b3237:414166] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14818243ff60]
+[b3237:414166] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3237:414166] *** End of error message ***
+/lib64/libc.so.6(raise+0x16)[0x14961f454d06]
+[b3240:49391] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14961f4287f3]
+[b3240:49391] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3240:49391] [ 5] [ 9] [b3232:1663802] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3232:1663802] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3232:1663802] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3232:1663802] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14ef17e3feb0]
+[b3232:1663802] [10] /lib64/libc.so.6(abort+0xd3)[0x1501012287f3]
+[b3237:414165] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3237:414165] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3237:414165] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3237:414165] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3237:414165] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3237:414165] [ 9] /lib64/libc.so.6(+0x3feb0)[0x15010123feb0]
+[b3237:414165] [10] [ 2] /lib64/libc.so.6(raise+0x16)[0x1482fac54d06]
+[b3240:49390] [ 3] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3233:923093] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3233:923093] [ 9] /lib64/libc.so.6(abort+0xd3)[0x146ce4c287f3]
+[b3232:1663799] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3232:1663799] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3232:1663799] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3232:1663799] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3232:1663799] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3232:1663799] [ 9] [ 9] /lib64/libc.so.6(+0x3feb0)[0x15247183feb0]
+[b3237:414163] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x15247183ff60]
+[b3237:414163] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3237:414163] *** End of error message ***
+/lib64/libc.so.6(abort+0xd3)[0x14a65de287f3]
+[b3240:49389] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3240:49389] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3240:49389] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3240:49389] [ 7] /lib64/libc.so.6(+0x3feb0)[0x1515ddc3feb0]
+[b3233:923091] [10] /lib64/libc.so.6(+0x3feb0)[0x146e8ca3feb0]
+[b3232:1663801] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x146e8ca3ff60]
+[b3232:1663801] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3232:1663801] *** End of error message ***
+/lib64/libc.so.6(+0x3feb0)[0x14b0d9a3feb0]
+[b3237:414162] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14b0d9a3ff60]
+[b3237:414162] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3237:414162] *** End of error message ***
+/lib64/libc.so.6(raise+0x16)[0x152e30a54d06]
+[b3240:49388] [ 3] /lib64/libc.so.6(abort+0xd3)[0x152e30a287f3]
+[b3240:49388] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3240:49388] [ 5] /lib64/libc.so.6(__libc_start_main+0x80)[0x1515ddc3ff60]
+[b3233:923091] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3232:1663798] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x15129d23ff60]
+[b3232:1663798] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3232:1663798] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0x80)[0x15010123ff60]
+[b3237:414165] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3237:414165] *** End of error message ***
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3240:49391] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3240:49391] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3240:49391] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3240:49391] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14961f43feb0]
+[b3240:49391] [10] /lib64/libc.so.6(+0x3feb0)[0x14a3db83feb0]
+[b3233:923093] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14ef17e3ff60]
+[b3232:1663802] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3232:1663802] *** End of error message ***
+/lib64/libc.so.6(abort+0xd3)[0x1482fac287f3]
+[b3240:49390] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3240:49390] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3240:49390] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3240:49390] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3240:49390] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3240:49390] [ 9] /lib64/libc.so.6(+0x3feb0)[0x1482fac3feb0]
+[b3240:49390] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x1482fac3ff60]
+[b3240:49390] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3240:49390] *** End of error message ***
+[b3233:923091] *** End of error message ***
+/lib64/libc.so.6(+0x3feb0)[0x146ce4c3feb0]
+[b3232:1663799] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x146ce4c3ff60]
+[b3232:1663799] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3232:1663799] *** End of error message ***
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3240:49389] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3240:49389] [ 9] /lib64/libc.so.6(+0x3feb0)[0x14a65de3feb0]
+[b3240:49389] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x14a65de3ff60]
+[b3240:49389] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3240:49389] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0x80)[0x14a3db83ff60]
+[b3233:923093] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+/cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3240:49388] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3240:49388] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3240:49388] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3240:49388] [ 9] /lib64/libc.so.6(+0x3feb0)[0x152e30a3feb0]
+[b3240:49388] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x152e30a3ff60]
+[b3240:49388] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3240:49388] *** End of error message ***
+[b3233:923093] *** End of error message ***
+/lib64/libc.so.6(__libc_start_main+0x80)[0x14961f43ff60]
+[b3240:49391] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3240:49391] *** End of error message ***
+[b3230:79499] *** Process received signal ***
+[b3230:79499] Signal: Aborted (6)
+[b3230:79499] Signal code:  (-6)
+[b3230:79499] [ 0] /lib64/libc.so.6(+0x54db0)[0x151f5a854db0]
+[b3230:79499] [ 1] /lib64/libc.so.6(+0xa154c)[0x151f5a8a154c]
+[b3230:79499] [ 2] /lib64/libc.so.6(raise+0x16)[0x151f5a854d06]
+[b3230:79499] [ 3] /lib64/libc.so.6(abort+0xd3)[0x151f5a8287f3]
+[b3230:79499] [ 4] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x429957]
+[b3230:79499] [ 5] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x658dc4]
+[b3230:79499] [ 6] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x46ab7f]
+[b3230:79499] [ 7] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x47b912]
+[b3230:79499] [ 8] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x42d5b0]
+[b3230:79499] [ 9] /lib64/libc.so.6(+0x3feb0)[0x151f5a83feb0]
+[b3230:79499] [10] /lib64/libc.so.6(__libc_start_main+0x80)[0x151f5a83ff60]
+[b3230:79499] [11] /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x[0x431305]
+[b3230:79499] *** End of error message ***
+Command terminated by signal 6
+511304
+Command terminated by signal 6
+474588
+Command terminated by signal 6
+456144
+Command terminated by signal 6
+454360
+Command terminated by signal 6
+452616
+Command terminated by signal 6
+456244
+Command terminated by signal 6
+512544
+Command terminated by signal 6
+511080
+Command terminated by signal 6
+519772
+Command terminated by signal 6
+513292
+Command terminated by signal 6
+514580
+Command terminated by signal 6
+484916
+Command terminated by signal 6
+Command terminated by signal 6
+519244
+Command terminated by signal 6
+581696
+Command terminated by signal 6
+512268
+509280
+Command terminated by signal 6
+442800
+Command terminated by signal 6
+454248
+Command terminated by signal 6
+576348
+Command terminated by signal 6
+519488
+--------------------------------------------------------------------------
+prterun detected that one or more processes exited with non-zero status,
+thus causing the job to be terminated. The first process to do so was:
+
+   Process name: [prterun-b3230-79473@1,25] Exit code:    134
+--------------------------------------------------------------------------
+Command terminated by signal 6
+517692
+Command terminated by signal 6
+573300
+
+
+Job 1568025 completed at Thu Jul 9 15:14:04 CEST 2026
