@@ -131,37 +131,6 @@ setting number of threads to omp_threads, 32
 ***                                                                     ***
 ***************************************************************************
 
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
 Using Libxc (version 7.0.0) to evaluate density functionals. Libxc is free
 software. It is distributed under the Mozilla Public License, version 2.0.
 For more information, please check the Libxc manual. You should cite
@@ -192,8 +161,513 @@ Libxc functionals used in this calculation:
  Precision               : 1.00000e-06
  Screening               : 1.20000e+01 StdDev
  Restricted              : True
- MO file                 : mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.mop
+ MO file                 : /cluster/projects/nn14654k/ylvaos/TPhP_bsse/mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.mop
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Error: /cluster/projects/nn14654k/ylvaos/mrchem/src/utils/gto_utils/Intgrl.cpp: Intgrl(), line 42: Failed to open basis set file: mrchem/initial_guess/geomopt_wb97x-d4/TPhP_opt/mrchem.bas
+===========================================================================
+                            Molecular Orbitals
+---------------------------------------------------------------------------
+ Alpha electrons         :                                          69.000
+ Beta electrons          :                                          69.000
+ Total electrons         :                                         138.000
+---------------------------------------------------------------------------
+    n     Occ Spin       :                                            Norm
+---------------------------------------------------------------------------
+    0    2.00    p       :                              9.999999333808e-01
+    1    2.00    p       :                              9.999999295502e-01
+    2    2.00    p       :                              9.999999417317e-01
+    3    2.00    p       :                              9.999999257215e-01
+    4    2.00    p       :                              9.999999143611e-01
+    5    2.00    p       :                              9.999999139589e-01
+    6    2.00    p       :                              9.999999243183e-01
+    7    2.00    p       :                              9.999999244070e-01
+    8    2.00    p       :                              9.999999219832e-01
+    9    2.00    p       :                              9.999999285662e-01
+   10    2.00    p       :                              9.999999351815e-01
+   11    2.00    p       :                              9.999999304480e-01
+   12    2.00    p       :                              9.999999249092e-01
+   13    2.00    p       :                              9.999999253965e-01
+   14    2.00    p       :                              9.999999234624e-01
+   15    2.00    p       :                              9.999999228877e-01
+   16    2.00    p       :                              9.999999229223e-01
+   17    2.00    p       :                              9.999999306309e-01
+   18    2.00    p       :                              9.999999275997e-01
+   19    2.00    p       :                              1.000000136798e+00
+   20    2.00    p       :                              9.999996140624e-01
+   21    2.00    p       :                              9.999995383907e-01
+   22    2.00    p       :                              9.999995402129e-01
+   23    2.00    p       :                              1.000000035335e+00
+   24    2.00    p       :                              1.000000128342e+00
+   25    2.00    p       :                              9.999993597876e-01
+   26    2.00    p       :                              9.999992694166e-01
+   27    2.00    p       :                              9.999997926337e-01
+   28    2.00    p       :                              9.999997563430e-01
+   29    2.00    p       :                              9.999997455195e-01
+   30    2.00    p       :                              9.999994054086e-01
+   31    2.00    p       :                              9.999993584123e-01
+   32    2.00    p       :                              9.999997314475e-01
+   33    2.00    p       :                              9.999993661025e-01
+   34    2.00    p       :                              9.999994567180e-01
+   35    2.00    p       :                              9.999997414899e-01
+   36    2.00    p       :                              9.999997684026e-01
+   37    2.00    p       :                              9.999997886940e-01
+   38    2.00    p       :                              9.999998093445e-01
+   39    2.00    p       :                              1.000000093651e+00
+   40    2.00    p       :                              9.999998644743e-01
+   41    2.00    p       :                              9.999995138096e-01
+   42    2.00    p       :                              9.999994159723e-01
+   43    2.00    p       :                              9.999995163970e-01
+   44    2.00    p       :                              9.999994488977e-01
+   45    2.00    p       :                              9.999997493669e-01
+   46    2.00    p       :                              9.999997795466e-01
+   47    2.00    p       :                              9.999997060011e-01
+   48    2.00    p       :                              9.999998027832e-01
+   49    2.00    p       :                              9.999994209316e-01
+   50    2.00    p       :                              9.999994361636e-01
+   51    2.00    p       :                              9.999997101328e-01
+   52    2.00    p       :                              9.999997349954e-01
+   53    2.00    p       :                              9.999997527223e-01
+   54    2.00    p       :                              1.000000162773e+00
+   55    2.00    p       :                              9.999994343631e-01
+   56    2.00    p       :                              9.999994040786e-01
+   57    2.00    p       :                              9.999997898424e-01
+   58    2.00    p       :                              9.999998715126e-01
+   59    2.00    p       :                              9.999997690284e-01
+   60    2.00    p       :                              9.999995433481e-01
+   61    2.00    p       :                              9.999995347406e-01
+   62    2.00    p       :                              9.999997772040e-01
+   63    2.00    p       :                              9.999993686569e-01
+   64    2.00    p       :                              9.999994262515e-01
+   65    2.00    p       :                              9.999997495698e-01
+   66    2.00    p       :                              9.999997594905e-01
+   67    2.00    p       :                              9.999997612183e-01
+   68    2.00    p       :                              9.999996062908e-01
+===========================================================================
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Calculation             : Compute initial energy
+ Method                  : DFT
+ XC Library              : LibXC
+ Relativity              : None
+ Environment             : None
+ External fields         : None
+ Precision               : 1.00000e-06
+ Density cutoff          : 0.00000e+00
+ Localization            : On
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+===========================================================================
+                        Molecular Energy (initial)
+---------------------------------------------------------------------------
+ Kinetic energy          :            (au)               1026.314000206590
+ E-N energy              :            (au)              -5240.167005259537
+ Coulomb energy          :            (au)               1892.458511504993
+ Exchange energy         :            (au)                  0.000000000000
+ X-C energy              :            (au)               -126.334019602582
+ N-N energy              :            (au)               1412.029183448351
+ Non-local pp energy     :            (au)                  0.000000000000
+---------------------------------------------------------------------------
+ Electronic energy       :            (au)              -2447.728513150537
+ Nuclear energy          :            (au)               1412.029183448351
+---------------------------------------------------------------------------
+ Total energy            :            (au)             -1.035699329702e+03
+                         :      (kcal/mol)             -6.499111416689e+05
+                         :        (kJ/mol)             -2.719228216743e+06
+                         :            (eV)             -2.818281449524e+04
+===========================================================================
+
+
+===========================================================================
+                        Orbital Energies (initial)
+---------------------------------------------------------------------------
+    n     Occ Spin       :                                         Epsilon
+---------------------------------------------------------------------------
+    0    2.00    p       :            (au)                -76.344917241450
+    1    2.00    p       :            (au)                 -9.934024885437
+    2    2.00    p       :            (au)                 -9.934019299449
+    3    2.00    p       :            (au)                 -9.933942997561
+    4    2.00    p       :            (au)                 -9.932684065091
+    5    2.00    p       :            (au)                 -9.932672829085
+    6    2.00    p       :            (au)                 -9.932648508594
+    7    2.00    p       :            (au)                 -9.932419330259
+    8    2.00    p       :            (au)                 -9.932402605245
+    9    2.00    p       :            (au)                 -9.932368755718
+   10    2.00    p       :            (au)                 -9.931441177938
+   11    2.00    p       :            (au)                 -9.931438580443
+   12    2.00    p       :            (au)                 -9.931416178067
+   13    2.00    p       :            (au)                 -9.931209557122
+   14    2.00    p       :            (au)                 -9.931181098400
+   15    2.00    p       :            (au)                 -9.931154779858
+   16    2.00    p       :            (au)                 -9.930982152077
+   17    2.00    p       :            (au)                 -9.930961281977
+   18    2.00    p       :            (au)                 -9.930933988011
+   19    2.00    p       :            (au)                 -6.317957360426
+   20    2.00    p       :            (au)                 -4.539898702678
+   21    2.00    p       :            (au)                 -4.539895057883
+   22    2.00    p       :            (au)                 -4.533162549784
+   23    2.00    p       :            (au)                 -0.788178984403
+   24    2.00    p       :            (au)                 -0.779881926687
+   25    2.00    p       :            (au)                 -0.779855856623
+   26    2.00    p       :            (au)                 -0.705801379326
+   27    2.00    p       :            (au)                 -0.679192576304
+   28    2.00    p       :            (au)                 -0.679179848983
+   29    2.00    p       :            (au)                 -0.677590051255
+   30    2.00    p       :            (au)                 -0.673485433744
+   31    2.00    p       :            (au)                 -0.673477913423
+   32    2.00    p       :            (au)                 -0.592588190595
+   33    2.00    p       :            (au)                 -0.551256577743
+   34    2.00    p       :            (au)                 -0.551233685479
+   35    2.00    p       :            (au)                 -0.549310329015
+   36    2.00    p       :            (au)                 -0.539322121681
+   37    2.00    p       :            (au)                 -0.539318709235
+   38    2.00    p       :            (au)                 -0.507245125475
+   39    2.00    p       :            (au)                 -0.472271348395
+   40    2.00    p       :            (au)                 -0.472253366880
+   41    2.00    p       :            (au)                 -0.447525032901
+   42    2.00    p       :            (au)                 -0.416223404015
+   43    2.00    p       :            (au)                 -0.416208627031
+   44    2.00    p       :            (au)                 -0.415667798019
+   45    2.00    p       :            (au)                 -0.403553280525
+   46    2.00    p       :            (au)                 -0.403545859260
+   47    2.00    p       :            (au)                 -0.396675100919
+   48    2.00    p       :            (au)                 -0.381658816715
+   49    2.00    p       :            (au)                 -0.381041607648
+   50    2.00    p       :            (au)                 -0.381022416176
+   51    2.00    p       :            (au)                 -0.370672554963
+   52    2.00    p       :            (au)                 -0.370636465209
+   53    2.00    p       :            (au)                 -0.340918016114
+   54    2.00    p       :            (au)                 -0.337988233983
+   55    2.00    p       :            (au)                 -0.337952084094
+   56    2.00    p       :            (au)                 -0.328957068631
+   57    2.00    p       :            (au)                 -0.309892812777
+   58    2.00    p       :            (au)                 -0.309875043037
+   59    2.00    p       :            (au)                 -0.309107324706
+   60    2.00    p       :            (au)                 -0.292196288610
+   61    2.00    p       :            (au)                 -0.292177634788
+   62    2.00    p       :            (au)                 -0.254993014329
+   63    2.00    p       :            (au)                 -0.242974777369
+   64    2.00    p       :            (au)                 -0.242777992543
+   65    2.00    p       :            (au)                 -0.242725741703
+   66    2.00    p       :            (au)                 -0.235803214085
+   67    2.00    p       :            (au)                 -0.235795400115
+   68    2.00    p       :            (au)                 -0.195252476930
+---------------------------------------------------------------------------
+ Sum occupied            :            (au)               -591.117988989989
+===========================================================================
+
+
+                                                                           
+***************************************************************************
+***                                                                     ***
+***                 Computing Ground State Wavefunction                 ***
+***                                                                     ***
+***************************************************************************
+                                                                           
+                                                                           
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Calculation             : Optimize ground state orbitals
+ Method                  : DFT
+ XC library              : LibXC
+ Relativity              : None
+ Environment             : None
+ External fields         : None
+ Checkpointing           : Off
+ Max iterations          : 100
+ KAIN solver             : 3
+ Localization            : First two iterations
+ Diagonalization         : Off
+ Start precision         : 1.00000e-06
+ Final precision         : 1.00000e-06
+ Helmholtz precision     : Dynamic
+ Energy threshold        : 1.00000e-04
+ Orbital threshold       : 1.00000e-03
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+===========================================================================
+ Iter           MO residual             Total energy                Update
+---------------------------------------------------------------------------
+    0          8.306624e+00       -1035.699329702186         -1.035699e+03
+    1          1.601291e-01       -1036.576333130948         -8.770034e-01
+    2          4.916293e-02       -1036.634721243994         -5.838811e-02
+    3          2.180594e-02       -1036.643842499826         -9.121256e-03
+    4          2.233796e-02       -1036.646524147110         -2.681647e-03
+    5          8.498657e-03       -1036.646851737530         -3.275904e-04
+    6          6.462617e-03       -1036.647027335689         -1.755982e-04
+    7          8.821185e-03       -1036.647170475196         -1.431395e-04
+    8          4.947600e-03       -1036.647221149385         -5.067419e-05
+    9          3.492943e-03       -1036.647265913194         -4.476381e-05
+   10          3.686373e-03       -1036.647281686437         -1.577324e-05
+   11          2.263551e-03       -1036.647307785262         -2.609882e-05
+   12          2.205175e-03       -1036.647310918388         -3.133126e-06
+   13          1.338056e-03       -1036.647315804247         -4.885859e-06
+---------------------------------------------------------------------------
+                      SCF converged in 13 iterations!
+===========================================================================
+
+
+                                                                           
+***************************************************************************
+***                                                                     ***
+***                    Printing Molecular Properties                    ***
+***                                                                     ***
+***************************************************************************
+                                                                           
+                                                                           
+===========================================================================
+                                 Molecule
+---------------------------------------------------------------------------
+ Charge                  :                                               0
+ Multiplicity            :                                               1
+---------------------------------------------------------------------------
+    N    Atom            :               x               y               z
+---------------------------------------------------------------------------
+    0       P            :       -4.220424        2.392968       -0.273646
+    1       C            :       -5.997132        1.375505       -3.083194
+    2       C            :       -8.092483        2.659179       -4.063771
+    3       C            :       -5.169025       -0.834901       -4.289112
+    4       C            :       -9.343704        1.738635       -6.198136
+    5       H            :       -8.757748        4.390254       -3.154624
+    6       C            :       -6.430995       -1.768314       -6.405636
+    7       H            :       -3.514008       -1.836621       -3.554250
+    8       C            :       -8.522895       -0.477557       -7.367966
+    9       H            :      -10.976477        2.761436       -6.947971
+   10       H            :       -5.768651       -3.500270       -7.319442
+   11       H            :       -9.507506       -1.196232       -9.037525
+   12       C            :       -5.787446        0.548074        2.221515
+   13       C            :       -4.635564        0.540707        4.608603
+   14       C            :       -8.026494       -0.818870        1.877333
+   15       C            :       -5.717572       -0.770032        6.622373
+   16       H            :       -2.868161        1.579977        4.889100
+   17       C            :       -9.099373       -2.151901        3.887283
+   18       H            :       -8.944084       -0.842852        0.027115
+   19       C            :       -7.954314       -2.124709        6.262688
+   20       H            :       -4.802206       -0.749613        8.475761
+   21       H            :      -10.847395       -3.215905        3.592963
+   22       H            :       -8.799626       -3.167861        7.834532
+   23       C            :       -5.568806        5.550378        0.271583
+   24       C            :       -7.589183        6.043257        1.907106
+   25       C            :       -4.476557        7.565572       -1.059437
+   26       C            :       -8.508681        8.501432        2.190418
+   27       H            :       -8.456367        4.497513        2.967505
+   28       C            :       -5.408210       10.016325       -0.795943
+   29       H            :       -2.876263        7.204099       -2.320760
+   30       C            :       -7.428087       10.489547        0.836289
+   31       H            :      -10.086072        8.862260        3.477260
+   32       H            :       -4.543014       11.566850       -1.854570
+   33       H            :       -8.153305       12.412510        1.059156
+---------------------------------------------------------------------------
+ Center of mass          :       -6.584018        2.541787       -0.157538
+===========================================================================
+
+
+===========================================================================
+                         Molecular Energy (final)
+---------------------------------------------------------------------------
+ Kinetic energy          :            (au)               1032.934030165948
+ E-N energy              :            (au)              -5249.354146646328
+ Coulomb energy          :            (au)               1894.367542732357
+ Exchange energy         :            (au)                  0.000000000000
+ X-C energy              :            (au)               -126.623925504575
+ N-N energy              :            (au)               1412.029183448351
+ Non-local pp energy     :            (au)                  0.000000000000
+---------------------------------------------------------------------------
+ Electronic energy       :            (au)              -2448.676499252598
+ Nuclear energy          :            (au)               1412.029183448351
+---------------------------------------------------------------------------
+ Total energy            :            (au)             -1.036647315804e+03
+                         :      (kcal/mol)             -6.505060119292e+05
+                         :        (kJ/mol)             -2.721717153912e+06
+                         :            (eV)             -2.820861051122e+04
+===========================================================================
+
+
+===========================================================================
+                         Orbital Energies (final)
+---------------------------------------------------------------------------
+    n     Occ Spin       :                                         Epsilon
+---------------------------------------------------------------------------
+    0    2.00    p       :            (au)                -76.336515196588
+    1    2.00    p       :            (au)                 -9.915135115819
+    2    2.00    p       :            (au)                 -9.915133259656
+    3    2.00    p       :            (au)                 -9.915121276455
+    4    2.00    p       :            (au)                 -9.910262211621
+    5    2.00    p       :            (au)                 -9.910251113034
+    6    2.00    p       :            (au)                 -9.910233654276
+    7    2.00    p       :            (au)                 -9.909958321804
+    8    2.00    p       :            (au)                 -9.909936180967
+    9    2.00    p       :            (au)                 -9.909906783185
+   10    2.00    p       :            (au)                 -9.909491814704
+   11    2.00    p       :            (au)                 -9.909478340394
+   12    2.00    p       :            (au)                 -9.909456490712
+   13    2.00    p       :            (au)                 -9.909205391146
+   14    2.00    p       :            (au)                 -9.909187058065
+   15    2.00    p       :            (au)                 -9.909157821712
+   16    2.00    p       :            (au)                 -9.908438245940
+   17    2.00    p       :            (au)                 -9.908415116215
+   18    2.00    p       :            (au)                 -9.908382071432
+   19    2.00    p       :            (au)                 -6.304747080328
+   20    2.00    p       :            (au)                 -4.521163183481
+   21    2.00    p       :            (au)                 -4.521162237147
+   22    2.00    p       :            (au)                 -4.516269627905
+   23    2.00    p       :            (au)                 -0.791684801437
+   24    2.00    p       :            (au)                 -0.783843507337
+   25    2.00    p       :            (au)                 -0.783815864671
+   26    2.00    p       :            (au)                 -0.707839614280
+   27    2.00    p       :            (au)                 -0.683684229693
+   28    2.00    p       :            (au)                 -0.683673836691
+   29    2.00    p       :            (au)                 -0.682329333734
+   30    2.00    p       :            (au)                 -0.677890018177
+   31    2.00    p       :            (au)                 -0.677878404386
+   32    2.00    p       :            (au)                 -0.592744005194
+   33    2.00    p       :            (au)                 -0.553684519135
+   34    2.00    p       :            (au)                 -0.553664747027
+   35    2.00    p       :            (au)                 -0.552023961499
+   36    2.00    p       :            (au)                 -0.541818899505
+   37    2.00    p       :            (au)                 -0.541814412741
+   38    2.00    p       :            (au)                 -0.508139914948
+   39    2.00    p       :            (au)                 -0.472307026349
+   40    2.00    p       :            (au)                 -0.472288059508
+   41    2.00    p       :            (au)                 -0.448588056424
+   42    2.00    p       :            (au)                 -0.413951400223
+   43    2.00    p       :            (au)                 -0.413933476559
+   44    2.00    p       :            (au)                 -0.412136214236
+   45    2.00    p       :            (au)                 -0.405272762677
+   46    2.00    p       :            (au)                 -0.405267435352
+   47    2.00    p       :            (au)                 -0.398146899677
+   48    2.00    p       :            (au)                 -0.380974364278
+   49    2.00    p       :            (au)                 -0.380340216963
+   50    2.00    p       :            (au)                 -0.380320331035
+   51    2.00    p       :            (au)                 -0.368746313964
+   52    2.00    p       :            (au)                 -0.368710536364
+   53    2.00    p       :            (au)                 -0.340183819182
+   54    2.00    p       :            (au)                 -0.337167977551
+   55    2.00    p       :            (au)                 -0.337131457227
+   56    2.00    p       :            (au)                 -0.327656914730
+   57    2.00    p       :            (au)                 -0.308377705538
+   58    2.00    p       :            (au)                 -0.308358774731
+   59    2.00    p       :            (au)                 -0.307665588099
+   60    2.00    p       :            (au)                 -0.289140240246
+   61    2.00    p       :            (au)                 -0.289121091260
+   62    2.00    p       :            (au)                 -0.254589171459
+   63    2.00    p       :            (au)                 -0.242934973455
+   64    2.00    p       :            (au)                 -0.242170773263
+   65    2.00    p       :            (au)                 -0.242120012982
+   66    2.00    p       :            (au)                 -0.235198820749
+   67    2.00    p       :            (au)                 -0.235190993550
+   68    2.00    p       :            (au)                 -0.197169902798
+---------------------------------------------------------------------------
+ Sum occupied            :            (au)               -590.237397946946
+===========================================================================
+
+
+===========================================================================
+                             Orbital Positions
+---------------------------------------------------------------------------
+  Index       Occ        :               x               y               z
+---------------------------------------------------------------------------
+      0      2.00        :       -4.220467        2.392971       -0.273644
+      1      2.00        :       -5.568747        5.550261        0.271575
+      2      2.00        :       -5.997057        1.375553       -3.083097
+      3      2.00        :       -5.787380        0.548131        2.221416
+      4      2.00        :       -4.635569        0.540724        4.608585
+      5      2.00        :       -4.476564        7.565547       -1.059442
+      6      2.00        :       -5.169028       -0.834893       -4.289088
+      7      2.00        :       -7.954319       -2.124719        6.262694
+      8      2.00        :       -7.428090       10.489558        0.836295
+      9      2.00        :       -8.522900       -0.477557       -7.367978
+     10      2.00        :       -5.717566       -0.770027        6.622376
+     11      2.00        :       -5.408205       10.016326       -0.795949
+     12      2.00        :       -6.430990       -1.768320       -6.405634
+     13      2.00        :       -9.099380       -2.151903        3.887291
+     14      2.00        :       -8.508688        8.501440        2.190417
+     15      2.00        :       -9.343712        1.738630       -6.198142
+     16      2.00        :       -8.026450       -0.818858        1.877334
+     17      2.00        :       -7.589141        6.043249        1.907090
+     18      2.00        :       -8.092440        2.659167       -4.063762
+     19      2.00        :       -4.319832        2.170206       -0.317173
+     20      2.00        :       -3.977303        2.377675       -0.285742
+     21      2.00        :       -4.287565        2.470309       -0.048014
+     22      2.00        :       -4.301969        2.553996       -0.443411
+     23      2.00        :       -3.202892        2.328950       -0.324141
+     24      2.00        :       -5.277696        1.863328       -1.861411
+     25      2.00        :       -7.351235        1.542772       -3.395496
+     26      2.00        :       -6.677757        2.123844       -4.011644
+     27      2.00        :       -5.558871        0.276308       -3.647089
+     28      2.00        :       -8.723183        2.215655       -5.131155
+     29      2.00        :       -8.536253        3.805476       -3.463583
+     30      2.00        :       -6.298800       -1.407902       -5.031247
+     31      2.00        :       -5.658101       -0.815397       -5.668417
+     32      2.00        :       -4.067650       -1.498699       -3.791050
+     33      2.00        :       -8.435451        0.932013       -6.904819
+     34      2.00        :       -9.084774        0.352396       -6.271868
+     35      2.00        :       -7.482804       -1.147960       -6.906380
+     36      2.00        :      -10.434533        2.424644       -6.694649
+     37      2.00        :       -5.991042       -2.924270       -7.017358
+     38      2.00        :       -9.178125       -0.961136       -8.484544
+     39      2.00        :       -5.164790        1.330626        1.104319
+     40      2.00        :       -5.189143        0.574021        3.387518
+     41      2.00        :       -7.145862        0.269657        2.409431
+     42      2.00        :       -6.550882       -0.588692        2.126687
+     43      2.00        :       -5.099660       -0.640692        5.337865
+     44      2.00        :       -5.660787        0.239715        5.615969
+     45      2.00        :       -3.459995        1.238749        4.788481
+     46      2.00        :       -8.570416       -1.493490        2.868657
+     47      2.00        :       -8.637368       -0.836121        0.653512
+     48      2.00        :       -6.837896       -1.451746        6.474473
+     49      2.00        :       -8.074593       -2.419749        4.810489
+     50      2.00        :       -8.646073       -1.548877        5.080716
+     51      2.00        :       -5.108699       -0.757898        7.860526
+     52      2.00        :      -10.267634       -2.860194        3.686145
+     53      2.00        :       -8.516001       -2.821108        7.316000
+     54      2.00        :       -5.037425        4.162174        0.074932
+     55      2.00        :       -6.879302        5.920665        0.594145
+     56      2.00        :       -6.165445        6.070089        1.393434
+     57      2.00        :       -5.004037        6.518206       -0.408560
+     58      2.00        :       -8.054857        7.264921        2.063502
+     59      2.00        :       -8.166414        5.021710        2.610243
+     60      2.00        :       -4.787487        8.806643       -0.348579
+     61      2.00        :       -5.470809        8.640407       -1.168897
+     62      2.00        :       -3.412928        7.315917       -1.900871
+     63      2.00        :       -7.476114        9.382710        1.827285
+     64      2.00        :       -8.168141        9.214874        1.020396
+     65      2.00        :       -6.420136       10.282914        0.008288
+     66      2.00        :       -9.563203        8.737352        3.050249
+     67      2.00        :       -4.832631       11.053026       -1.501545
+     68      2.00        :       -7.909711       11.776612        0.982750
+===========================================================================
+
+
+===========================================================================
+                           Dipole Moment (dip-1)
+---------------------------------------------------------------------------
+ r_O                     :        0.000000        0.000000        0.000000
+---------------------------------------------------------------------------
+ Electronic vector       :      914.201941     -351.119813       21.466589
+ Magnitude               :            (au)                      979.546388
+                         :         (Debye)                     2489.758579
+---------------------------------------------------------------------------
+ Nuclear vector          :     -914.746371      351.154032      -21.438471
+ Magnitude               :            (au)                      980.066164
+                         :         (Debye)                     2491.079717
+---------------------------------------------------------------------------
+ Total vector            :       -0.544430        0.034219        0.028118
+ Magnitude               :            (au)                        0.546228
+                         :         (Debye)                        1.388374
+===========================================================================
+
+
+                                                                           
+                                                                           
+***************************************************************************
+***                                                                     ***
+***                            Exiting MRChem                           ***
+***                                                                     ***
+***                       Wall time :  0h 10m  7s                       ***
+***                                                                     ***
+***************************************************************************
+                                                                           
+                                                                           
