@@ -9,3 +9,5 @@
 *opt_trj.xyz
 *.engrad
 *.carthess
+*slurm*
+*/runscripts*
