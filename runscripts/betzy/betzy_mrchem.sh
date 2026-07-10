@@ -9,8 +9,8 @@ source /cluster/projects/nn14654k/ylvaos/mrchem/tools/betzy.env
 
 export UCX_LOG_LEVEL=ERROR
 
-inp="15h"
-dir="geomopt_wb97x-d4_bp86_1e6"
+inp="TPhP"
+dir="opt1_bp86_1e6"
 
 cd mrchem/$dir
 

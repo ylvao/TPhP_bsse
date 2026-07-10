@@ -1,7 +1,0 @@
-Starting job 1568026 on b[4101-4103,4105-4107,4109-4110] on Betzy at Thu Jul 9 15:13:48 CEST 2026
-
-launch command:  /cluster/projects/nn14654k/ylvaos/mrchem/install/bin/mrchem.x TPhP.json > TPhP.out
-slurmstepd: error: *** JOB 1568026 ON b4101 CANCELLED AT 2026-07-09T15:14:05 ***
-
-
-Job 1568026 completed at Thu Jul 9 15:14:10 CEST 2026
