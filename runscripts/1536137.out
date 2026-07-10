@@ -1,0 +1,24 @@
+
+Job 1536137 consumed 53.6 billing hours and 0.0 GPU hours from project nn14654k.
+
+Submitted 2026-07-09T14:01:29; waited 0.0 seconds in the queue after becoming eligible to run.
+
+Requested wallclock time: 2.0 hours
+Elapsed wallclock time:   1.6 hours
+
+Job exited normally.
+
+Task and CPU statistics:
+ID             CPUs  Tasks  CPU util                Start  Elapsed  Exit status
+1536137          32            0.0 %  2026-07-09T14:01:29    1.6 h  0
+1536137.batch    32      1    97.1 %  2026-07-09T14:01:29    1.6 h  0
+
+Used CPU time:   2.1 CPU days
+Unused CPU time: 1.5 CPU hours
+
+Memory statistics, in GiB:
+ID              Alloc   Usage
+1536137          96.0        
+1536137.batch    96.0    10.8
+
+Job 1536137 completed at Thu Jul 9 15:38:58 CEST 2026
