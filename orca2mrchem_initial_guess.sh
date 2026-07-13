@@ -1,5 +1,5 @@
 
-mol="15h"
+mol="1b"
 file="opt1_bp86/for_mrchem_init_guess/"$mol"_x2csvp"
 destpath="opt1_x2csvp/$mol"
 
