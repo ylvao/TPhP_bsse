@@ -9,7 +9,7 @@ source /cluster/projects/nn14654k/ylvaos/mrchem/tools/betzy.env
 
 export UCX_LOG_LEVEL=ERROR
 
-inp="TPhP"
+inp="1b"
 dir="opt1_bp86_1e6"
 
 cd mrchem/$dir

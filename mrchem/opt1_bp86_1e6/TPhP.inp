@@ -40,8 +40,8 @@ SCF {
 }
 
 Files {
-  guess_basis = "mrchem/initial_guess/opt1_x2csvp/TPhP/mrchem.bas"
-  guess_gto_p = "mrchem/initial_guess/opt1_x2csvp/TPhP/mrchem.mop"
+  guess_basis = "../initial_guess/opt1_x2csvp/TPhP/mrchem.bas"
+  guess_gto_p = "../initial_guess/opt1_x2csvp/TPhP/mrchem.mop"
 }
 
 Molecule {
