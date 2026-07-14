@@ -11,3 +11,5 @@
 *.carthess
 *slurm*
 */runscripts*
+*.ges
+*core

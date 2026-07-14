@@ -1,0 +1,3 @@
+  ! BP86 def2-SVP VeryTightSCF defgrid3 NOAUTOSTART
+  %id "1b"
+  * xyzfile 0 1 xyz/1b_opt1.xyz
