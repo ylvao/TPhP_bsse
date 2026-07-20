@@ -1,0 +1,15 @@
+! wB97X-D4 def2-SVP TightSCF defgrid3 Opt
+
+%pal nprocs 32 end
+
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+
+*xyz 0 1
+ P        0.79443       -4.33409        0.12510
+ H       -0.73097       -3.75634        1.02958
+ H        0.82705       -6.08005        0.78158
+ H        2.06058       -3.60921        1.28652
+*
