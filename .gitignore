@@ -10,7 +10,7 @@
 *.engrad
 *.carthess
 *slurm*
-*/runscripts*
+runscripts
 *.ges
 *core
 /*.out
