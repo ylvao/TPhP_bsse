@@ -6,7 +6,7 @@
 
 
 #SBATCH --job-name=orca_func_tester
-#SBATCH --time=0-10:00:00
+#SBATCH --time=0-20:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=32
 #SBATCH --cpus-per-task=1
@@ -20,7 +20,7 @@ module load OpenMPI/5.0.9-GCC-14.3.0
 export CMAKE_TLS_VERIFY=0
 
 dir="orca/opt1_bp86/bbcp"
-name="bbcp_def2qzvp"
+name="bbcp_def2tzvp"
 
 # cd .. # include if called from runscripts/olivia
 # cd ..

@@ -1,0 +1,61 @@
+#
+# Calculations for Boys-Bernardi CP correction
+#
+
+%Compound
+
+# --------------------------------------------
+# Monomers
+# --------------------------------------------
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "15h"
+* xyzfile 0 1 xyz/15h_opt1.xyz
+Step_End
+
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "TPhP"
+* xyzfile 0 1 xyz/TPhP_opt1.xyz
+Step_End
+
+# --------------------------------------------
+# Dimer
+# --------------------------------------------
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "1b"
+* xyzfile 0 1 xyz/1b_opt1.xyz
+Step_End
+
+# --------------------------------------------
+# Monomer at dimer geometry
+# --------------------------------------------
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "15h_1b_geo"
+* xyzfile 0 1 xyz/15h_1b_geo.xyz
+Step_End
+
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "TPhP_1b_geo"
+* xyzfile 0 1 xyz/TPhP_1b_geo.xyz
+Step_End
+
+# --------------------------------------------
+# Monomer at dimer geometry with dimer basis
+# --------------------------------------------
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "15h_1b_geo_basis"
+* xyzfile 0 1 xyz/15h_1b_geo_basis.xyz
+Step_End
+
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%id "TPhP_1b_geo_basis"
+* xyzfile 0 1 xyz/TPhP_1b_geo_basis.xyz
+Step_End
+
+EndRun

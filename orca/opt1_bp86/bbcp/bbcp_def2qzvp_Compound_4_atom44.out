@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Thu Jul 16 12:58:14 2026
+  * Starting time: Thu Jul 16 17:25:53 2026
   * Host name:     c1-6
-  * Process ID:    981139
+  * Process ID:    1920808
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/opt1_bp86/bbcp
   ***********************************
 
@@ -223,7 +223,7 @@ WARNING: TRAH-SCF with ROHF wave function is not implemented yet
 ================================================================================
                                        INPUT FILE
 ================================================================================
-NAME = bbcp_def2qzvp_Compound_1_atom44.inp
+NAME = bbcp_def2qzvp_Compound_4_atom44.inp
 |  1> # input to generate an atomic fitting density for Ru
 |  2> # this file is used internally by ORCA
 |  3> #
@@ -536,7 +536,7 @@ Hamiltonian:
 
 
 General Settings:
- Integral files         IntName         .... bbcp_def2qzvp_Compound_1_atom44
+ Integral files         IntName         .... bbcp_def2qzvp_Compound_4_atom44
  Hartree-Fock type      HFTyp           .... ROHF
  Total Charge           Charge          ....    0
  Multiplicity           Mult            ....    5
@@ -614,7 +614,7 @@ Making the density                         ... done
                       INTIAL GUESS DONE 
                       -----------------
 
-             **** ENERGY FILE WAS UPDATED (bbcp_def2qzvp_Compound_1_atom44.en.tmp) ****
+             **** ENERGY FILE WAS UPDATED (bbcp_def2qzvp_Compound_4_atom44.en.tmp) ****
 Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 4.0 MB
 
@@ -627,7 +627,7 @@ Maximum memory used throughout the entire GUESS-calculation: 4.0 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -84.4171016551515265     0.00e+00  1.19e-01  2.60e+00  1.26e+00  0.700   0.2
+    1    -84.4171016551515265     0.00e+00  1.19e-01  2.60e+00  1.26e+00  0.700   0.1
     2    -87.8399763435515553    -3.42e+00  7.21e-02  1.81e+00  3.54e-01  0.700   0.0
                                ***Turning on AO-DIIS***
     3    -88.8805095128997209    -1.04e+00  5.11e-02  1.25e+00  1.51e-01  0.700   0.1
@@ -669,7 +669,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER  27 CYCLES          *
                *****************************************************
 
-             **** ENERGY FILE WAS UPDATED (bbcp_def2qzvp_Compound_1_atom44.en.tmp) ****
+             **** ENERGY FILE WAS UPDATED (bbcp_def2qzvp_Compound_4_atom44.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
@@ -1096,7 +1096,7 @@ Making the total density                ... o.k.
 Making exponents                        ... done
 Making rho(0)                           ... done (         0.000401526)
 Integral calculation                    ... Solving the equation system             ... done
-atomic density will be written to file bbcp_def2qzvp_Compound_1_atom44.adf
+atomic density will be written to file bbcp_def2qzvp_Compound_4_atom44.adf
 
 -------
 TIMINGS
@@ -1104,22 +1104,22 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 1 sec 
 
-Total time                  ....       1.331 sec
-Sum of individual times     ....       1.258 sec  ( 94.5%)
+Total time                  ....       1.268 sec
+Sum of individual times     ....       1.201 sec  ( 94.7%)
 
-SCF preparation             ....       0.051 sec  (  3.8%)
-Fock matrix formation       ....       0.824 sec  ( 61.9%)
-  Startup                   ....       0.007 sec  (  0.8% of F)
-  Coulomb+Exchange Fock     ....       0.699 sec  ( 84.8% of F)
+SCF preparation             ....       0.029 sec  (  2.3%)
+Fock matrix formation       ....       0.806 sec  ( 63.6%)
+  Startup                   ....       0.006 sec  (  0.8% of F)
+  Coulomb+Exchange Fock     ....       0.673 sec  ( 83.5% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.107 sec  (  8.0%)
+Density matrix formation    ....       0.105 sec  (  8.3%)
 Total Energy calculation    ....       0.013 sec  (  1.0%)
 Population analysis         ....       0.000 sec  (  0.0%)
-Orbital Transformation      ....       0.009 sec  (  0.7%)
+Orbital Transformation      ....       0.008 sec  (  0.6%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.233 sec  ( 17.5%)
-SOSCF solution              ....       0.021 sec  (  1.6%)
-Finished LeanSCF after   1.4 sec
+DIIS solution               ....       0.226 sec  ( 17.8%)
+SOSCF solution              ....       0.015 sec  (  1.2%)
+Finished LeanSCF after   1.3 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 6.2 MB
 
@@ -1132,7 +1132,7 @@ FINAL SINGLE POINT ENERGY       -93.831480582598
                               ORCA PROPERTY CALCULATIONS
 ------------------------------------------------------------------------------
 
-GBWName                                 ... bbcp_def2qzvp_Compound_1_atom44.gbw
+GBWName                                 ... bbcp_def2qzvp_Compound_4_atom44.gbw
 Number of atoms                         ...      1
 Number of basis functions               ...     42
 Max core memory                         ...   4096 MB
@@ -1237,7 +1237,7 @@ But we need these citations in order to attract the funding resources that allow
 
 Therefore, if you are a happy ORCA user, please consider citing a few of the papers listed below in the main body of your paper
 
-In addition to the list printed below, the program has created the file bbcp_def2qzvp_Compound_1_atom44.bibtex that contains the list in bibtex format
+In addition to the list printed below, the program has created the file bbcp_def2qzvp_Compound_4_atom44.bibtex that contains the list in bibtex format
 You can import this file easily into all common literature databanks and citation aid programs
 
 It goes without saying that in many instances, there are alternative algorithms to achieve similar
@@ -1295,9 +1295,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        2.032 sec (=   0.034 min)
-Startup calculation              ...        0.301 sec (=   0.005 min)  14.8 %
-SCF iterations                   ...        1.573 sec (=   0.026 min)  77.4 %
-Property calculations            ...        0.158 sec (=   0.003 min)   7.8 %
+Sum of individual times          ...        1.675 sec (=   0.028 min)
+Startup calculation              ...        0.304 sec (=   0.005 min)  18.2 %
+SCF iterations                   ...        1.340 sec (=   0.022 min)  80.0 %
+Property calculations            ...        0.031 sec (=   0.001 min)   1.9 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 2 seconds 248 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 811 msec
