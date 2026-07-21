@@ -1,0 +1,66 @@
+# vim:syntax=sh:
+
+world_prec = 1.0e-06
+world_unit = angstrom
+
+MPI {
+  omp_threads = 32
+  bank_size   = 16        # 2 x antall noder
+  numerically_exact       = false
+  share_nuclear_potential = true
+  share_coulomb_potential = true
+}
+
+Basis {
+  order = 7
+}
+
+WaveFunction {
+  method = DFT
+  restricted = true
+}
+
+DFT {
+$functionals
+bp86
+$end
+  xc_library = libxc
+}
+
+SCF {
+  kain = 3
+  localize = true
+  run = true
+  guess_type = gto
+  guess_prec = 1.0e-06
+  start_prec = 1.0e-06
+  final_prec = 1.0e-06
+  orbital_thrs = 1.0e-03
+  energy_thrs = 1.0e-04
+}
+
+Files {
+  guess_basis = "../initial_guess/opt1_x2csvp_ph3/15h_ph3/mrchem.bas"
+  guess_gto_p = "../initial_guess/opt1_x2csvp_ph3/15h_ph3/mrchem.mop"
+}
+
+Molecule {
+  translate = false
+  charge = 0
+  multiplicity = 1
+$coords
+  Ru          2.42378792926701     -3.58520797332977     -1.15733432773819
+  P           1.23533412466304     -3.81621119775003     -3.09091328726235
+  H           1.61889502600714     -4.68176805056826     -4.15212524477213
+  H          -0.13099685133823     -4.20909643200518     -3.05172171918773
+  H           1.05814021879758     -2.64851012802368     -3.87135047656795
+  P           3.49712171207746     -2.74073762336815      0.67007616701831
+  H           3.78440559651935     -1.35460625169496      0.65500868537004
+  H           2.87600550411209     -2.77576679561651      1.94904951619476
+  H           4.77768238499033     -3.18181508452486      1.10386132368953
+  H           3.33464916342019     -2.63333596368168     -1.97775352538111
+  H           3.76265394383519     -4.51164747593312     -1.69575862799906
+  H           3.28688874694547     -5.10420560064709     -1.24311704578949
+  H           1.42318250070333     -2.31344142285661     -0.92029143757458
+$end
+}
