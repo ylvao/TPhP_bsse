@@ -1,0 +1,3 @@
+  ! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+  %id "def2-tzvp"
+  * xyzfile 0 1 opt1_pme3/TPhP_pme3_opt.xyz

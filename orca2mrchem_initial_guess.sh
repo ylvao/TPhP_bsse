@@ -1,7 +1,8 @@
 
-mol="TPhP"
-file="opt1_bp86_ph3/for_mrchem_init_guess/"$mol"_x2csvp_ph3"
-destpath="opt1_x2csvp_ph3/"$mol"_ph3"
+mol="1b"
+# file="opt1_bp86_ph3/for_mrchem_init_guess/"$mol"_x2csvp_ph3"
+file="opt1_bp86_pme3/for_mrchem_init_guess/x2csvp_pme3_Compound_3"
+destpath="opt1_x2csvp_pme3/"$mol"_pme3"
 
 mkdir -p mrchem/initial_guess/$destpath
 
