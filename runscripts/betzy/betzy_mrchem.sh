@@ -9,8 +9,8 @@ source /cluster/projects/nn14654k/ylvaos/mrchem/tools/betzy.env
 
 export UCX_LOG_LEVEL=ERROR
 
-inp="1b_pme3"
-dir="opt1_bp86_1e6_pme3"
+inp="TPhP_pet3"
+dir="opt1_bp86_1e6_pet3"
 
 cd mrchem/$dir
 
