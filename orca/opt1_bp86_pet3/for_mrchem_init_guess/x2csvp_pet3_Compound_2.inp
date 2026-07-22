@@ -1,0 +1,7 @@
+  ! BP86 X2C-SVPall VeryTightSCF defgrid3 NOAUTOSTART
+  %loc
+    LocMet NEWBOYS
+    Occ true
+  end
+  %id "15h"
+  * xyzfile 0 1 opt1_pet3/15h_pet3_opt.xyz

@@ -1,0 +1,37 @@
+#
+# Calculations for dmrchem init guess
+#
+
+%Compound
+
+New_Step
+! BP86 def2-SVP VeryTightSCF defgrid3 NOAUTOSTART
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+%id "def2-svp"
+* xyzfile 0 1 opt1_pet3/1b_pet3_opt.xyz
+Step_End
+
+New_Step
+! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+%id "def2-tzvp"
+* xyzfile 0 1 opt1_pet3/1b_pet3_opt.xyz
+Step_End
+
+New_Step
+! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+%id "def2-qzvp"
+* xyzfile 0 1 opt1_pet3/1b_pet3_opt.xyz
+Step_End
+
+EndRun

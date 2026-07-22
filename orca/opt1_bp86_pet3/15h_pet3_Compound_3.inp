@@ -1,0 +1,7 @@
+  ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
+  %loc
+    LocMet NEWBOYS
+    Occ true
+  end
+  %id "def2-qzvp"
+  * xyzfile 0 1 opt1_pet3/15h_pet3_opt.xyz

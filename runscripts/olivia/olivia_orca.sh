@@ -19,8 +19,8 @@ module load NRIS/CPU
 module load OpenMPI/5.0.9-GCC-14.3.0
 export CMAKE_TLS_VERIFY=0
 
-dir="orca/opt1_bp86_pme3/for_mrchem_init_guess"
-name="x2csvp_pme3"
+dir="orca/opt1_bp86_pet3"
+name="15h_pet3"
 
 # cd .. # include if called from runscripts/olivia
 # cd ..
