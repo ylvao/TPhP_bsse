@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Tue Jul 21 13:06:27 2026
-  * Host name:     c1-3
-  * Process ID:    1358080
+  * Starting time: Tue Aug  4 16:19:24 2026
+  * Host name:     c1-4
+  * Process ID:    404053
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/opt1_bp86_pme3
   ***********************************
 
@@ -199,6 +199,10 @@ The basis set includes element-specific modifications.
 
 WARNING: Frozen-Core approximation turned on, but there are no core electrons.
   ===> : Turning off frozen-core approximation
+
+WARNING: Old DensityContainer found on disk!
+         Will remove this file - 
+         If you want to keep old densities, please start your calculation with a different basename. 
 
 
 WARNING: ROHF and Conv is not properly working
@@ -611,7 +615,7 @@ Maximum memory used throughout the entire GUESS-calculation: 3.7 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -90.8782577680816530     0.00e+00  1.69e-01  2.35e+00  5.45e-01  0.700   0.1
+    1    -90.8782577680816530     0.00e+00  1.69e-01  2.35e+00  5.45e-01  0.700   0.2
     2    -91.6956450305652595    -8.17e-01  1.16e-01  1.64e+00  3.60e-01  0.700   0.0
                                ***Turning on AO-DIIS***
     3    -91.9318617755882883    -2.36e-01  7.98e-02  1.12e+00  1.29e-01  0.700   0.0
@@ -638,7 +642,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-   21    -94.0665909852794044    -3.24e-07  8.66e-06  1.37e-04  2.59e-05     0.0
+   21    -94.0665909852794044    -3.24e-07  8.66e-06  1.37e-04  2.59e-05     0.1
                *** Restarting incremental Fock matrix formation ***
    22    -94.0665909973628516    -1.21e-08  1.12e-05  1.60e-04  2.51e-05     0.0
    23    -94.0665910149545255    -1.76e-08  7.13e-05  8.36e-04  2.36e-05     0.0
@@ -914,22 +918,22 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.700 sec
-Sum of individual times     ....       0.648 sec  ( 92.5%)
+Total time                  ....       0.934 sec
+Sum of individual times     ....       0.859 sec  ( 92.0%)
 
-SCF preparation             ....       0.083 sec  ( 11.8%)
-Fock matrix formation       ....       0.275 sec  ( 39.2%)
-  Startup                   ....       0.006 sec  (  2.2% of F)
-  Coulomb+Exchange Fock     ....       0.175 sec  ( 63.6% of F)
+SCF preparation             ....       0.085 sec  (  9.1%)
+Fock matrix formation       ....       0.411 sec  ( 44.1%)
+  Startup                   ....       0.008 sec  (  1.9% of F)
+  Coulomb+Exchange Fock     ....       0.278 sec  ( 67.5% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.076 sec  ( 10.9%)
-Total Energy calculation    ....       0.010 sec  (  1.5%)
+Density matrix formation    ....       0.095 sec  ( 10.2%)
+Total Energy calculation    ....       0.012 sec  (  1.3%)
 Population analysis         ....       0.000 sec  (  0.0%)
-Orbital Transformation      ....       0.007 sec  (  1.0%)
+Orbital Transformation      ....       0.009 sec  (  1.0%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.176 sec  ( 25.1%)
-SOSCF solution              ....       0.021 sec  (  3.0%)
-Finished LeanSCF after   0.8 sec
+DIIS solution               ....       0.207 sec  ( 22.1%)
+SOSCF solution              ....       0.040 sec  (  4.3%)
+Finished LeanSCF after   1.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 5.8 MB
 
@@ -1105,9 +1109,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        1.390 sec (=   0.023 min)
-Startup calculation              ...        0.297 sec (=   0.005 min)  21.3 %
-SCF iterations                   ...        0.949 sec (=   0.016 min)  68.3 %
-Property calculations            ...        0.145 sec (=   0.002 min)  10.4 %
+Sum of individual times          ...        1.674 sec (=   0.028 min)
+Startup calculation              ...        0.298 sec (=   0.005 min)  17.8 %
+SCF iterations                   ...        1.211 sec (=   0.020 min)  72.4 %
+Property calculations            ...        0.164 sec (=   0.003 min)   9.8 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 594 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 869 msec

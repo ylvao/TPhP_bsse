@@ -1,0 +1,11 @@
+Previously:
+> Finished making mrchem init guess for PMe3
+
+Running when left: 
+> Geomopt for PtBu3 15h
+> Single point orca 1b_ptbu3 and TPhP_ptbu3
+
+Next up:
+> Fill inn mrchem calc for PEt3 ligand and 1b_pet
+> Single point and mrchem init guess for PtBu3 1b (15h not geom opted yet)
+> Single point and mrchem init guess for Pet3 1b

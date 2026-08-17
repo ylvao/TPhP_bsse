@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Tue Jul 21 17:52:28 2026
-  * Host name:     c1-37
-  * Process ID:    1268956
+  * Starting time: Tue Aug  4 15:51:18 2026
+  * Host name:     c1-40
+  * Process ID:    2365677
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/geomopt_wb97x-d4_def2svp_pet3
   ***********************************
 
@@ -199,6 +199,10 @@ The basis set includes element-specific modifications.
 
 WARNING: Frozen-Core approximation turned on, but there are no core electrons.
   ===> : Turning off frozen-core approximation
+
+WARNING: Old DensityContainer found on disk!
+         Will remove this file - 
+         If you want to keep old densities, please start your calculation with a different basename. 
 
 
 WARNING: ROHF and Conv is not properly working
@@ -476,10 +480,10 @@ Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.000
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 2.539e-02
-Time for diagonalization                   ...    0.002 sec
+Time for diagonalization                   ...    0.003 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.002 sec
+Time for construction of square roots      ...    0.001 sec
 Total time needed                          ...    0.005 sec
 
 -------------------
@@ -504,7 +508,7 @@ Average number of grid points per atom       ...    11810
 Grids setup in   0.3 sec
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.8 seconds
+SHARK setup successfully completed in   0.6 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 6.3 MB
 -------------------------------------------------------------------------------
@@ -616,7 +620,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
                                ***Turning on AO-DIIS***
     3    -91.9318617755882883    -2.36e-01  7.98e-02  1.12e+00  1.29e-01  0.700   0.0
     4    -92.5074618092707226    -5.76e-01  5.64e-02  7.69e-01  7.09e-02  0.700   0.0
-    5    -92.9458569313877376    -4.38e-01  1.34e-01  1.82e+00  3.35e-02  0.000   0.0
+    5    -92.9458569313877376    -4.38e-01  1.34e-01  1.82e+00  3.35e-02  0.000   0.1
     6    -94.0287390648831263    -1.08e+00  7.27e-04  1.11e-02  8.36e-02  0.000   0.0
     7    -94.0271065833472619     1.63e-03  8.73e-06  1.19e-04  8.51e-02  0.000   0.0
     8    -94.0271440510647238    -3.75e-05  8.37e-06  1.14e-04  8.51e-02  0.000   0.0
@@ -625,7 +629,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
    11    -94.0182316297795637     1.50e-03  1.02e-03  1.59e-02  9.32e-02  0.000   0.0
    12    -94.0142959344629361     3.94e-03  2.60e-03  3.06e-02  9.64e-02  0.000   0.0
    13    -94.0300167071316650    -1.57e-02  9.00e-03  7.59e-02  8.21e-02  0.000   0.0
-   14    -94.0638307268617950    -3.38e-02  3.57e-03  5.82e-02  1.30e-02  0.000   0.0
+   14    -94.0638307268617950    -3.38e-02  3.57e-03  5.82e-02  1.30e-02  0.000   0.1
    15    -94.0652460285506606    -1.42e-03  4.27e-03  6.76e-02  9.43e-03  0.000   0.0
    16    -94.0661912383377370    -9.45e-04  2.75e-03  4.43e-02  5.38e-03  0.000   0.0
    17    -94.0664945696779569    -3.03e-04  1.34e-03  2.24e-02  2.66e-03  0.000   0.0
@@ -912,24 +916,24 @@ atomic density will be written to file 1b_pet3_opt_atom44.adf
 TIMINGS
 -------
 
-Total SCF time: 0 days 0 hours 0 min 0 sec 
+Total SCF time: 0 days 0 hours 0 min 1 sec 
 
-Total time                  ....       0.825 sec
-Sum of individual times     ....       0.776 sec  ( 94.1%)
+Total time                  ....       1.160 sec
+Sum of individual times     ....       1.073 sec  ( 92.4%)
 
-SCF preparation             ....       0.058 sec  (  7.0%)
-Fock matrix formation       ....       0.422 sec  ( 51.2%)
-  Startup                   ....       0.009 sec  (  2.1% of F)
-  Coulomb+Exchange Fock     ....       0.305 sec  ( 72.4% of F)
+SCF preparation             ....       0.229 sec  ( 19.8%)
+Fock matrix formation       ....       0.441 sec  ( 38.0%)
+  Startup                   ....       0.010 sec  (  2.3% of F)
+  Coulomb+Exchange Fock     ....       0.289 sec  ( 65.6% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.090 sec  ( 11.0%)
-Total Energy calculation    ....       0.010 sec  (  1.2%)
+Density matrix formation    ....       0.159 sec  ( 13.7%)
+Total Energy calculation    ....       0.019 sec  (  1.7%)
 Population analysis         ....       0.000 sec  (  0.0%)
-Orbital Transformation      ....       0.008 sec  (  1.0%)
+Orbital Transformation      ....       0.008 sec  (  0.7%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.167 sec  ( 20.2%)
-SOSCF solution              ....       0.020 sec  (  2.5%)
-Finished LeanSCF after   1.0 sec
+DIIS solution               ....       0.189 sec  ( 16.2%)
+SOSCF solution              ....       0.027 sec  (  2.3%)
+Finished LeanSCF after   1.3 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 5.8 MB
 
@@ -1105,9 +1109,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        2.364 sec (=   0.039 min)
-Startup calculation              ...        0.946 sec (=   0.016 min)  40.0 %
-SCF iterations                   ...        1.248 sec (=   0.021 min)  52.8 %
-Property calculations            ...        0.169 sec (=   0.003 min)   7.2 %
+Sum of individual times          ...        2.789 sec (=   0.046 min)
+Startup calculation              ...        0.750 sec (=   0.012 min)  26.9 %
+SCF iterations                   ...        1.646 sec (=   0.027 min)  59.0 %
+Property calculations            ...        0.393 sec (=   0.007 min)  14.1 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 2 seconds 571 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 3 seconds 47 msec

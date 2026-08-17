@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Mon Jul 20 19:12:12 2026
-  * Host name:     c1-33
-  * Process ID:    3885845
+  * Starting time: Tue Aug  4 15:55:49 2026
+  * Host name:     c1-37
+  * Process ID:    1401323
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/geomopt_wb97x-d4_def2svp_pme3
   ***********************************
 
@@ -199,6 +199,10 @@ The basis set includes element-specific modifications.
 
 WARNING: Frozen-Core approximation turned on, but there are no core electrons.
   ===> : Turning off frozen-core approximation
+
+WARNING: Old DensityContainer found on disk!
+         Will remove this file - 
+         If you want to keep old densities, please start your calculation with a different basename. 
 
 
 WARNING: ROHF and Conv is not properly working
@@ -471,16 +475,16 @@ Checking whether 4 symmetric matrices of dimension 24 fit in memory
  MB left             =   4094.76
  MB needed           =      0.01
  Data fit in memory  = YES
-Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
+Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.2 sec)
 Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.000000000000 Eh
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 2.539e-02
-Time for diagonalization                   ...    0.000 sec
+Time for diagonalization                   ...    0.004 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
-Total time needed                          ...    0.002 sec
+Time for construction of square roots      ...    0.002 sec
+Total time needed                          ...    0.007 sec
 
 -------------------
 DFT GRID GENERATION
@@ -504,7 +508,7 @@ Average number of grid points per atom       ...    11810
 Grids setup in   0.3 sec
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.3 seconds
+SHARK setup successfully completed in   0.9 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 6.3 MB
 -------------------------------------------------------------------------------
@@ -599,7 +603,7 @@ Making the density                         ... done
                       -----------------
 
              **** ENERGY FILE WAS UPDATED (15h_pme3_opt_atom44.en.tmp) ****
-Finished Guess after   0.0 sec
+Finished Guess after   0.4 sec
 Maximum memory used throughout the entire GUESS-calculation: 3.7 MB
 
 -------------------------------------------------------------------------------------------
@@ -611,14 +615,14 @@ Maximum memory used throughout the entire GUESS-calculation: 3.7 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -90.8782577680816530     0.00e+00  1.69e-01  2.35e+00  5.45e-01  0.700   0.0
+    1    -90.8782577680816530     0.00e+00  1.69e-01  2.35e+00  5.45e-01  0.700   0.5
     2    -91.6956450305652595    -8.17e-01  1.16e-01  1.64e+00  3.60e-01  0.700   0.0
                                ***Turning on AO-DIIS***
     3    -91.9318617755882883    -2.36e-01  7.98e-02  1.12e+00  1.29e-01  0.700   0.0
     4    -92.5074618092707226    -5.76e-01  5.64e-02  7.69e-01  7.09e-02  0.700   0.0
     5    -92.9458569313877376    -4.38e-01  1.34e-01  1.82e+00  3.35e-02  0.000   0.0
     6    -94.0287390648831263    -1.08e+00  7.27e-04  1.11e-02  8.36e-02  0.000   0.0
-    7    -94.0271065833472619     1.63e-03  8.73e-06  1.19e-04  8.51e-02  0.000   0.0
+    7    -94.0271065833472619     1.63e-03  8.73e-06  1.19e-04  8.51e-02  0.000   0.1
     8    -94.0271440510647238    -3.75e-05  8.37e-06  1.14e-04  8.51e-02  0.000   0.0
     9    -94.0271799458886193    -3.59e-05  2.68e-03  3.91e-02  8.50e-02  0.000   0.0
    10    -94.0197332455743293     7.45e-03  1.55e-03  2.78e-02  9.14e-02  0.000   0.0
@@ -638,7 +642,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-   21    -94.0665909852794044    -3.24e-07  8.66e-06  1.37e-04  2.59e-05     0.0
+   21    -94.0665909852794044    -3.24e-07  8.66e-06  1.37e-04  2.59e-05     0.1
                *** Restarting incremental Fock matrix formation ***
    22    -94.0665909973628516    -1.21e-08  1.12e-05  1.60e-04  2.51e-05     0.0
    23    -94.0665910149545255    -1.76e-08  7.13e-05  8.36e-04  2.36e-05     0.0
@@ -912,24 +916,24 @@ atomic density will be written to file 15h_pme3_opt_atom44.adf
 TIMINGS
 -------
 
-Total SCF time: 0 days 0 hours 0 min 0 sec 
+Total SCF time: 0 days 0 hours 0 min 1 sec 
 
-Total time                  ....       0.635 sec
-Sum of individual times     ....       0.586 sec  ( 92.3%)
+Total time                  ....       1.469 sec
+Sum of individual times     ....       1.332 sec  ( 90.7%)
 
-SCF preparation             ....       0.028 sec  (  4.3%)
-Fock matrix formation       ....       0.273 sec  ( 43.0%)
-  Startup                   ....       0.006 sec  (  2.3% of F)
-  Coulomb+Exchange Fock     ....       0.162 sec  ( 59.3% of F)
+SCF preparation             ....       0.120 sec  (  8.2%)
+Fock matrix formation       ....       0.764 sec  ( 52.0%)
+  Startup                   ....       0.014 sec  (  1.8% of F)
+  Coulomb+Exchange Fock     ....       0.545 sec  ( 71.4% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.085 sec  ( 13.4%)
-Total Energy calculation    ....       0.011 sec  (  1.7%)
+Density matrix formation    ....       0.120 sec  (  8.1%)
+Total Energy calculation    ....       0.021 sec  (  1.5%)
 Population analysis         ....       0.000 sec  (  0.0%)
-Orbital Transformation      ....       0.008 sec  (  1.2%)
+Orbital Transformation      ....       0.013 sec  (  0.9%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.166 sec  ( 26.2%)
-SOSCF solution              ....       0.015 sec  (  2.3%)
-Finished LeanSCF after   0.6 sec
+DIIS solution               ....       0.253 sec  ( 17.2%)
+SOSCF solution              ....       0.041 sec  (  2.8%)
+Finished LeanSCF after   1.7 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 5.8 MB
 
@@ -1105,9 +1109,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        1.069 sec (=   0.018 min)
-Startup calculation              ...        0.323 sec (=   0.005 min)  30.2 %
-SCF iterations                   ...        0.711 sec (=   0.012 min)  66.5 %
-Property calculations            ...        0.035 sec (=   0.001 min)   3.3 %
+Sum of individual times          ...        4.005 sec (=   0.067 min)
+Startup calculation              ...        0.985 sec (=   0.016 min)  24.6 %
+SCF iterations                   ...        2.684 sec (=   0.045 min)  67.0 %
+Property calculations            ...        0.336 sec (=   0.006 min)   8.4 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 188 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 4 seconds 294 msec

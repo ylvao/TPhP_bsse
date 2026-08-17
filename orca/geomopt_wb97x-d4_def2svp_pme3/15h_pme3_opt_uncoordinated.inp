@@ -1,4 +1,4 @@
-! wB97X-D4 def2-SVP TightSCF defgrid3 Opt
+! wB97X-D4 def2-SVP TightSCF defgrid3 Opt Freq
 
 %pal nprocs 32 end
 

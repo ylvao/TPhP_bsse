@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Tue Jul 21 13:06:03 2026
-  * Host name:     c1-35
-  * Process ID:    1902897
+  * Starting time: Tue Aug  4 15:26:41 2026
+  * Host name:     c1-17
+  * Process ID:    1363154
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/opt1_bp86_pme3
   ***********************************
 
@@ -218,10 +218,14 @@ NOTE: please remember that MaxCore and PAL settings will be ignored.
 ================================================================================
 NAME = 1b_pme3_Compound_1.inp
 |  1>   ! BP86 def2-SVP VeryTightSCF defgrid3 NOAUTOSTART
-|  2>   %id "def2svp"
-|  3>   * xyzfile 0 1 opt1_pme3/1b_pme3_opt.xyz
-|  4> 
-|  5>                          ****END OF INPUT****
+|  2>   %loc
+|  3>     LocMet NEWBOYS
+|  4>     Occ true
+|  5>   end
+|  6>   %id "def2-svp"
+|  7>   * xyzfile 0 1 opt1_pme3/1b_pme3_opt.xyz
+|  8> 
+|  9>                          ****END OF INPUT****
 ================================================================================
 
 
@@ -655,16 +659,16 @@ Checking whether 4 symmetric matrices of dimension 366 fit in memory
  MB left             =   4075.04
  MB needed           =      2.05
  Data fit in memory  = YES
-Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
+Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.1 sec)
 Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=   1558.828639224372 Eh
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 1.740e-03
-Time for diagonalization                   ...    0.008 sec
+Time for diagonalization                   ...    0.020 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.004 sec
-Total time needed                          ...    0.014 sec
+Time for construction of square roots      ...    0.005 sec
+Total time needed                          ...    0.026 sec
 
 -------------------
 DFT GRID GENERATION
@@ -685,10 +689,10 @@ Total number of grid points                  ...   456000
 Total number of batches                      ...     7145
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...    10364
-Grids setup in   5.2 sec
+Grids setup in   5.4 sec
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   5.7 seconds
+SHARK setup successfully completed in   6.3 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 161.1 MB
 -------------------------------------------------------------------------------
@@ -810,10 +814,10 @@ Diagonalizing the Hamiltonian                      ... done (   0.0 sec)
 Back transforming the eigenvectors                 ... done (   0.0 sec)
 Now organizing SCF variables                       ... done
                       ------------------
-                      INITIAL GUESS DONE (   2.6 sec)
+                      INITIAL GUESS DONE (   2.9 sec)
                       ------------------
              **** ENERGY FILE WAS UPDATED (1b_pme3_Compound_1.en.tmp) ****
-Finished Guess after   2.6 sec
+Finished Guess after   3.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 34.8 MB
 
 -------------------------------------------------------------------------------------------
@@ -825,26 +829,26 @@ Maximum memory used throughout the entire GUESS-calculation: 34.8 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -1479.8129101332981463     0.00e+00  2.40e-03  8.28e-02  4.71e-01  0.700   4.6
-    2    -1480.0595352317820925    -2.47e-01  1.63e-03  4.74e-02  3.16e-01  0.700   4.0
-    3    -1480.1439961367984779    -8.45e-02  7.73e-04  1.90e-02  2.17e-01  0.700   4.2
+    1    -1479.8129101332981463     0.00e+00  2.40e-03  8.28e-02  4.71e-01  0.700   4.7
+    2    -1480.0595352317820925    -2.47e-01  1.63e-03  4.74e-02  3.16e-01  0.700   4.2
+    3    -1480.1439961367984779    -8.45e-02  7.73e-04  1.90e-02  2.17e-01  0.700   4.1
                                ***Turning on AO-DIIS***
-    4    -1480.1909144761136758    -4.69e-02  3.39e-04  1.73e-02  1.54e-01  0.700   3.8
+    4    -1480.1909144761136758    -4.69e-02  3.39e-04  1.73e-02  1.54e-01  0.700   4.0
     5    -1480.2258657494428462    -3.50e-02  1.69e-04  1.26e-02  1.07e-01  0.700   3.7
     6    -1480.2505824775423662    -2.47e-02  1.04e-04  6.95e-03  7.48e-02  0.700   3.6
-    7    -1480.2679253378521480    -1.73e-02  2.41e-04  2.11e-02  5.29e-02  0.000   3.7
+    7    -1480.2679253378521480    -1.73e-02  2.41e-04  2.11e-02  5.29e-02  0.000   3.5
                               *** Initializing SOSCF ***
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    8    -1480.3081041837356224    -4.02e-02  3.64e-05  2.25e-03  7.36e-04     3.8
+    8    -1480.3081041837356224    -4.02e-02  3.64e-05  2.25e-03  7.36e-04     3.7
                *** Restarting incremental Fock matrix formation ***
-    9    -1480.3081073057808226    -3.12e-06  9.83e-05  7.00e-03  6.50e-04     4.8
-   10    -1480.3079497814198930     1.58e-04  8.42e-05  5.94e-03  3.09e-03     3.4
+    9    -1480.3081073057808226    -3.12e-06  9.83e-05  7.00e-03  6.50e-04     4.7
+   10    -1480.3079497814198930     1.58e-04  8.42e-05  5.94e-03  3.09e-03     3.5
    11    -1480.3081149356423794    -1.65e-04  1.75e-05  6.88e-04  7.37e-05     3.4
-   12    -1480.3081130444927567     1.89e-06  1.15e-05  5.09e-04  1.31e-04     3.2
+   12    -1480.3081130444927567     1.89e-06  1.15e-05  5.09e-04  1.31e-04     3.3
    13    -1480.3081158891193354    -2.84e-06  2.96e-06  1.30e-04  1.41e-05     3.2
-   14    -1480.3081158402890196     4.88e-08  1.90e-06  8.21e-05  2.70e-05     3.0
+   14    -1480.3081158402890196     4.88e-08  1.90e-06  8.21e-05  2.70e-05     3.1
    15    -1480.3081159074165498    -6.71e-08  3.42e-07  9.64e-06  1.86e-06     3.0
    16    -1480.3081159074333755    -1.68e-11  1.88e-07  6.13e-06  2.53e-06     2.8
                  **** Energy Check signals convergence ****
@@ -1763,30 +1767,146 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 1 min 1 sec 
 
-Total time                  ....      61.049 sec
-Sum of individual times     ....      58.297 sec  ( 95.5%)
+Total time                  ....      61.399 sec
+Sum of individual times     ....      58.670 sec  ( 95.6%)
 
-SCF preparation             ....       0.060 sec  (  0.1%)
-Fock matrix formation       ....      57.810 sec  ( 94.7%)
+SCF preparation             ....       0.063 sec  (  0.1%)
+Fock matrix formation       ....      58.160 sec  ( 94.7%)
   Startup                   ....       0.006 sec  (  0.0% of F)
-  Split-RI-J                ....      17.580 sec  ( 30.4% of F)
-  XC integration            ....      42.791 sec  ( 74.0% of F)
+  Split-RI-J                ....      17.960 sec  ( 30.9% of F)
+  XC integration            ....      42.724 sec  ( 73.5% of F)
     XC Preparation          ....       0.000 sec  (  0.0% of XC)
-    Basis function eval.    ....      14.784 sec  ( 34.5% of XC)
-    Density eval.           ....      11.757 sec  ( 27.5% of XC)
-    XC-Functional eval.     ....       1.848 sec  (  4.3% of XC)
-    XC-Potential eval.      ....      13.249 sec  ( 31.0% of XC)
+    Basis function eval.    ....      15.035 sec  ( 35.2% of XC)
+    Density eval.           ....      11.710 sec  ( 27.4% of XC)
+    XC-Functional eval.     ....       1.889 sec  (  4.4% of XC)
+    XC-Potential eval.      ....      12.941 sec  ( 30.3% of XC)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.059 sec  (  0.1%)
-Total Energy calculation    ....       0.007 sec  (  0.0%)
+Density matrix formation    ....       0.063 sec  (  0.1%)
+Total Energy calculation    ....       0.008 sec  (  0.0%)
 Population analysis         ....       0.012 sec  (  0.0%)
-Orbital Transformation      ....       0.032 sec  (  0.1%)
+Orbital Transformation      ....       0.033 sec  (  0.1%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.185 sec  (  0.3%)
-SOSCF solution              ....       0.131 sec  (  0.2%)
-Finished LeanSCF after  61.1 sec
+DIIS solution               ....       0.200 sec  (  0.3%)
+SOSCF solution              ....       0.133 sec  (  0.2%)
+Finished LeanSCF after  61.4 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 82.4 MB
+------------------------------------------------------------------------------
+                           ORCA ORBITAL LOCALIZATION
+------------------------------------------------------------------------------
+
+Input orbitals are from                  ... 1b_pme3_Compound_1.gbw
+Output orbitals are to                   ... 1b_pme3_Compound_1.loc
+Max. number of iterations                ... 128
+Localizations seeded randomly            ... on
+Convergence tolerance                    ... 1.000e-06
+Threshold for strong local MOs           ... 9.500e-01
+Threshold for bond MOs                   ... 8.500e-01
+Operator                                 ... 0
+Orbital range for localization           ... 15 to 72
+Localization criterion                   ... NEW-BOYS
+Doing the dipole integrals               ... o.k.
+Initial value of the localization sum :  1604.058790
+ITERATION   0 : L= 1759.8478551694 DL=  1.56e+02 (AVERGE_DL)=    0.3069955347 
+ITERATION   1 : L= 1802.6501847773 DL=  4.28e+01 (AVERGE_DL)=    0.1609152768 
+ITERATION   2 : L= 1804.0732300828 DL=  1.42e+00 (AVERGE_DL)=    0.0293408666 
+ITERATION   3 : L= 1804.1450655665 DL=  7.18e-02 (AVERGE_DL)=    0.0065922411 
+ITERATION   4 : L= 1804.1770158653 DL=  3.20e-02 (AVERGE_DL)=    0.0043964388 
+ITERATION   5 : L= 1804.2169158990 DL=  3.99e-02 (AVERGE_DL)=    0.0049130389 
+ITERATION   6 : L= 1804.2492439294 DL=  3.23e-02 (AVERGE_DL)=    0.0044223509 
+ITERATION   7 : L= 1804.2660280382 DL=  1.68e-02 (AVERGE_DL)=    0.0031864911 
+ITERATION   8 : L= 1804.2729139566 DL=  6.89e-03 (AVERGE_DL)=    0.0020410071 
+ITERATION   9 : L= 1804.2757200667 DL=  2.81e-03 (AVERGE_DL)=    0.0013029145 
+ITERATION  10 : L= 1804.2769684846 DL=  1.25e-03 (AVERGE_DL)=    0.0008690476 
+ITERATION  11 : L= 1804.2775588616 DL=  5.90e-04 (AVERGE_DL)=    0.0005976244 
+ITERATION  12 : L= 1804.2778441895 DL=  2.85e-04 (AVERGE_DL)=    0.0004154662 
+ITERATION  13 : L= 1804.2779827381 DL=  1.39e-04 (AVERGE_DL)=    0.0002895107 
+ITERATION  14 : L= 1804.2780500283 DL=  6.73e-05 (AVERGE_DL)=    0.0002017621 
+ITERATION  15 : L= 1804.2780826954 DL=  3.27e-05 (AVERGE_DL)=    0.0001405783 
+ITERATION  16 : L= 1804.2780985535 DL=  1.59e-05 (AVERGE_DL)=    0.0000979467 
+ITERATION  17 : L= 1804.2781062521 DL=  7.70e-06 (AVERGE_DL)=    0.0000682449 
+ITERATION  18 : L= 1804.2781099898 DL=  3.74e-06 (AVERGE_DL)=    0.0000475511 
+ITERATION  19 : L= 1804.2781118039 DL=  1.81e-06 (AVERGE_DL)=    0.0000331281 
+ITERATION  20 : L= 1804.2781126858 DL=  8.82e-07 (AVERGE_DL)=    0.0000230985 
+LOCALIZATION SUM CONVERGED
+
+
+--------------------------------------------------------------------------------
+                    LOCALIZED MOLECULAR ORBITAL COMPOSITIONS
+--------------------------------------------------------------------------------
+
+The Mulliken populations for each LMO on each atom are computed
+The LMO`s will be ordered according to atom index and type
+  (A) Strongly localized MO`s have populations of >=0.950 on one atom
+  (B) Two center bond orbitals have populations of >=0.850 on two atoms
+  (C) Other MO`s are considered to be `delocalized`
+
+FOUND  -  12 strongly local MO`s
+       -  45 two center bond MO`s
+       -   1 significantly delocalized MO`s
+
+Rather strongly localized orbitals:
+MO  26:   3P  -   0.999660
+MO  25:   3P  -   1.000010
+MO  24:   3P  -   0.999910
+MO  23:   2P  -   0.999705
+MO  22:   2P  -   0.999970
+MO  21:   2P  -   1.000000
+MO  20:   1P  -   0.999705
+MO  19:   1P  -   0.999970
+MO  18:   1P  -   0.999999
+MO  17:   0Ru -   0.969863
+MO  16:   0Ru -   0.968026
+MO  15:   0Ru -   0.966471
+Bond-like localized orbitals:
+MO  71:  43H  -   0.478245  and  40C  -   0.516492
+MO  70:  42H  -   0.494600  and  40C  -   0.496895
+MO  69:  41H  -   0.480145  and  40C  -   0.515994
+MO  68:  40C  -   0.569605  and   3P  -   0.467954
+MO  67:  39H  -   0.479029  and  36C  -   0.515590
+MO  66:  38H  -   0.479088  and  36C  -   0.515477
+MO  65:  37H  -   0.496687  and  36C  -   0.496704
+MO  64:  36C  -   0.560951  and   3P  -   0.476867
+MO  63:  35H  -   0.494566  and  32C  -   0.496795
+MO  62:  34H  -   0.480149  and  32C  -   0.516059
+MO  61:  33H  -   0.478082  and  32C  -   0.516671
+MO  60:  32C  -   0.569483  and   3P  -   0.468077
+MO  59:  31H  -   0.470951  and  28C  -   0.522380
+MO  58:  30H  -   0.493467  and  28C  -   0.496691
+MO  57:  29H  -   0.479183  and  28C  -   0.516108
+MO  56:  28C  -   0.561708  and   1P  -   0.475568
+MO  55:  27H  -   0.493339  and  24C  -   0.496944
+MO  54:  26H  -   0.471101  and  24C  -   0.522369
+MO  53:  25H  -   0.478969  and  24C  -   0.516279
+MO  52:  24C  -   0.561342  and   2P  -   0.475903
+MO  51:  23H  -   0.473986  and  20C  -   0.522146
+MO  50:  22H  -   0.471595  and  20C  -   0.523303
+MO  49:  21H  -   0.498481  and  20C  -   0.495221
+MO  48:  20C  -   0.545708  and   2P  -   0.491367
+MO  47:  19H  -   0.498379  and  16C  -   0.495497
+MO  46:  18H  -   0.471722  and  16C  -   0.523206
+MO  45:  17H  -   0.474305  and  16C  -   0.521973
+MO  44:  16C  -   0.545636  and   1P  -   0.491241
+MO  43:  15H  -   0.475694  and  12C  -   0.519012
+MO  42:  14H  -   0.493323  and  12C  -   0.499355
+MO  41:  13H  -   0.480521  and  12C  -   0.516238
+MO  40:  12C  -   0.562372  and   1P  -   0.475574
+MO  39:  11H  -   0.476038  and   4C  -   0.518655
+MO  38:  10H  -   0.493246  and   4C  -   0.499510
+MO  37:   9H  -   0.480068  and   4C  -   0.516611
+MO  36:   8H  -   0.512215  and   0Ru -   0.440115
+MO  35:   7H  -   0.520240  and   0Ru -   0.443088
+MO  34:   4C  -   0.562280  and   2P  -   0.475587
+MO  33:   3P  -   0.797720  and   0Ru -   0.199395
+MO  32:   2P  -   0.733148  and   0Ru -   0.251046
+MO  31:   1P  -   0.012325  and   0Ru -   0.922126
+MO  30:   1P  -   0.018174  and   0Ru -   0.940827
+MO  29:   1P  -   0.732598  and   0Ru -   0.251547
+MO  28:   1P  -   0.014161  and   0Ru -   0.932376
+MO  27:   1P  -   0.013101  and   0Ru -   0.942142
+More delocalized orbitals:
+MO  72:  0Ru- 0.165 5H - 0.421 6H - 0.416
+Localized MO's were stored in: 1b_pme3_Compound_1.loc
 
 -------------------------   --------------------
 FINAL SINGLE POINT ENERGY     -1480.308115908194
@@ -1888,10 +2008,11 @@ Maximum memory used throughout the entire PROP-calculation: 33.5 MB
 
 Timings for individual modules:
 
-Sum of individual times          ...       69.514 sec (=   1.159 min)
-Startup calculation              ...        5.720 sec (=   0.095 min)   8.2 %
-SCF iterations                   ...       63.736 sec (=   1.062 min)  91.7 %
-Property calculations            ...        0.058 sec (=   0.001 min)   0.1 %
+Sum of individual times          ...       71.088 sec (=   1.185 min)
+Startup calculation              ...        6.491 sec (=   0.108 min)   9.1 %
+SCF iterations                   ...       64.485 sec (=   1.075 min)  90.7 %
+Property calculations            ...        0.064 sec (=   0.001 min)   0.1 %
+Orbital localization             ...        0.048 sec (=   0.001 min)   0.1 %
 
 
 ################################################################################
@@ -1908,10 +2029,14 @@ NOTE: please remember that MaxCore and PAL settings will be ignored.
 ================================================================================
 NAME = 1b_pme3_Compound_2.inp
 |  1>   ! BP86 def2-TZVP VeryTightSCF defgrid3 NOAUTOSTART
-|  2>   %id "def2-tzvp"
-|  3>   * xyzfile 0 1 opt1_pme3/1b_pme3_opt.xyz
-|  4> 
-|  5>                          ****END OF INPUT****
+|  2>   %loc
+|  3>     LocMet NEWBOYS
+|  4>     Occ true
+|  5>   end
+|  6>   %id "def2-tzvp"
+|  7>   * xyzfile 0 1 opt1_pme3/1b_pme3_opt.xyz
+|  8> 
+|  9>                          ****END OF INPUT****
 ================================================================================
 
 
@@ -2350,11 +2475,11 @@ Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=   1558.828
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 4.373e-04
-Time for diagonalization                   ...    0.028 sec
+Time for diagonalization                   ...    0.029 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.014 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.016 sec
+Total time needed                          ...    0.047 sec
 
 -------------------
 DFT GRID GENERATION
@@ -2375,10 +2500,10 @@ Total number of grid points                  ...   456000
 Total number of batches                      ...     7145
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...    10364
-Grids setup in   5.7 sec
+Grids setup in   5.8 sec
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   6.7 seconds
+SHARK setup successfully completed in   6.8 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 204.7 MB
 -------------------------------------------------------------------------------
@@ -2492,7 +2617,7 @@ Initial density was built
                       INITIAL GUESS DONE (   0.1 sec)
                       ------------------
              **** ENERGY FILE WAS UPDATED (1b_pme3_Compound_2.en.tmp) ****
-Finished Guess after   0.2 sec
+Finished Guess after   0.4 sec
 Maximum memory used throughout the entire GUESS-calculation: 93.7 MB
 
 -------------------------------------------------------------------------------------------
@@ -2504,29 +2629,29 @@ Maximum memory used throughout the entire GUESS-calculation: 93.7 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -1480.8361035687141793     0.00e+00  1.52e-03  9.21e-02  3.77e-01  0.700  10.0
-    2    -1480.9179558961643579    -8.19e-02  1.20e-03  7.32e-02  2.64e-01  0.700   8.9
+    1    -1480.8361035687141793     0.00e+00  1.52e-03  9.21e-02  3.77e-01  0.700  10.2
+    2    -1480.9179558961643579    -8.19e-02  1.20e-03  7.32e-02  2.64e-01  0.700   8.5
                                ***Turning on AO-DIIS***
-    3    -1480.9757010265327608    -5.77e-02  8.79e-04  5.37e-02  1.85e-01  0.700   8.5
+    3    -1480.9757010265327608    -5.77e-02  8.79e-04  5.37e-02  1.85e-01  0.700   8.4
     4    -1481.0161905832153479    -4.05e-02  6.28e-04  3.82e-02  1.30e-01  0.700   8.2
-    5    -1481.0446889953566370    -2.85e-02  4.42e-04  2.68e-02  9.07e-02  0.700   8.0
-    6    -1481.0646818390985118    -2.00e-02  1.04e-03  6.26e-02  6.35e-02  0.000   9.5
+    5    -1481.0446889953566370    -2.85e-02  4.42e-04  2.68e-02  9.07e-02  0.700   8.1
+    6    -1481.0646818390985118    -2.00e-02  1.04e-03  6.26e-02  6.35e-02  0.000   7.9
                               *** Initializing SOSCF ***
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    7    -1481.1114243673039255    -4.67e-02  2.62e-05  1.91e-03  1.49e-03     9.3
+    7    -1481.1114243673039255    -4.67e-02  2.62e-05  1.91e-03  1.49e-03     8.9
                *** Restarting incremental Fock matrix formation ***
-    8    -1481.1114126638678954     1.17e-05  8.79e-05  5.52e-03  9.48e-04    11.9
-    9    -1481.1110237475720623     3.89e-04  7.53e-05  4.43e-03  4.69e-03     7.3
-   10    -1481.1114297563037780    -4.06e-04  2.12e-05  1.63e-03  1.53e-04     7.5
-   11    -1481.1114168059687017     1.30e-05  1.51e-05  1.16e-03  3.52e-04     7.0
-   12    -1481.1114341462628090    -1.73e-05  4.79e-06  3.01e-04  3.80e-05     6.8
-   13    -1481.1114335731206211     5.73e-07  3.08e-06  1.93e-04  5.92e-05     6.4
-   14    -1481.1114343583833488    -7.85e-07  2.91e-07  2.00e-05  2.49e-06     6.3
-   15    -1481.1114343565852778     1.80e-09  1.93e-07  1.45e-05  4.72e-06     5.6
+    8    -1481.1114126638678954     1.17e-05  8.79e-05  5.52e-03  9.48e-04    10.8
+    9    -1481.1110237475720623     3.89e-04  7.53e-05  4.43e-03  4.69e-03     8.0
+   10    -1481.1114297563037780    -4.06e-04  2.12e-05  1.63e-03  1.53e-04     8.0
+   11    -1481.1114168059687017     1.30e-05  1.51e-05  1.16e-03  3.52e-04     7.6
+   12    -1481.1114341462628090    -1.73e-05  4.79e-06  3.01e-04  3.80e-05     7.5
+   13    -1481.1114335731206211     5.73e-07  3.08e-06  1.93e-04  5.92e-05     7.0
+   14    -1481.1114343583833488    -7.85e-07  2.91e-07  2.00e-05  2.49e-06     6.9
+   15    -1481.1114343565852778     1.80e-09  1.93e-07  1.45e-05  4.72e-06     6.0
    16    -1481.1114343588108113    -2.23e-09  6.29e-08  4.74e-06  5.58e-07     5.4
-   17    -1481.1114343594806542    -6.70e-10  3.64e-08  2.36e-06  7.67e-07     5.1
+   17    -1481.1114343594806542    -6.70e-10  3.64e-08  2.36e-06  7.67e-07     5.3
                  **** Energy Check signals convergence ****
 
                *****************************************************
@@ -3611,30 +3736,143 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 2 min 17 sec 
 
-Total time                  ....     137.144 sec
-Sum of individual times     ....     132.039 sec  ( 96.3%)
+Total time                  ....     137.935 sec
+Sum of individual times     ....     132.716 sec  ( 96.2%)
 
-SCF preparation             ....       0.082 sec  (  0.1%)
-Fock matrix formation       ....     130.692 sec  ( 95.3%)
-  Startup                   ....       0.013 sec  (  0.0% of F)
-  Split-RI-J                ....      40.571 sec  ( 31.0% of F)
-  XC integration            ....      94.862 sec  ( 72.6% of F)
+SCF preparation             ....       0.087 sec  (  0.1%)
+Fock matrix formation       ....     131.269 sec  ( 95.2%)
+  Startup                   ....       0.015 sec  (  0.0% of F)
+  Split-RI-J                ....      41.956 sec  ( 32.0% of F)
+  XC integration            ....      93.762 sec  ( 71.4% of F)
     XC Preparation          ....       0.000 sec  (  0.0% of XC)
-    Basis function eval.    ....      22.957 sec  ( 24.2% of XC)
-    Density eval.           ....      30.036 sec  ( 31.7% of XC)
-    XC-Functional eval.     ....       1.997 sec  (  2.1% of XC)
-    XC-Potential eval.      ....      38.399 sec  ( 40.5% of XC)
+    Basis function eval.    ....      23.322 sec  ( 24.9% of XC)
+    Density eval.           ....      29.616 sec  ( 31.6% of XC)
+    XC-Functional eval.     ....       2.037 sec  (  2.2% of XC)
+    XC-Potential eval.      ....      37.417 sec  ( 39.9% of XC)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.099 sec  (  0.1%)
-Total Energy calculation    ....       0.017 sec  (  0.0%)
-Population analysis         ....       0.031 sec  (  0.0%)
-Orbital Transformation      ....       0.112 sec  (  0.1%)
+Density matrix formation    ....       0.116 sec  (  0.1%)
+Total Energy calculation    ....       0.020 sec  (  0.0%)
+Population analysis         ....       0.033 sec  (  0.0%)
+Orbital Transformation      ....       0.114 sec  (  0.1%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.553 sec  (  0.4%)
-SOSCF solution              ....       0.452 sec  (  0.3%)
-Finished LeanSCF after 137.2 sec
+DIIS solution               ....       0.574 sec  (  0.4%)
+SOSCF solution              ....       0.502 sec  (  0.4%)
+Finished LeanSCF after 138.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 138.0 MB
+------------------------------------------------------------------------------
+                           ORCA ORBITAL LOCALIZATION
+------------------------------------------------------------------------------
+
+Input orbitals are from                  ... 1b_pme3_Compound_2.gbw
+Output orbitals are to                   ... 1b_pme3_Compound_2.loc
+Max. number of iterations                ... 128
+Localizations seeded randomly            ... on
+Convergence tolerance                    ... 1.000e-06
+Threshold for strong local MOs           ... 9.500e-01
+Threshold for bond MOs                   ... 8.500e-01
+Operator                                 ... 0
+Orbital range for localization           ... 15 to 72
+Localization criterion                   ... NEW-BOYS
+Doing the dipole integrals               ... o.k.
+Initial value of the localization sum :  1599.846383
+ITERATION   0 : L= 1759.9555926060 DL=  1.60e+02 (AVERGE_DL)=    0.3112230328 
+ITERATION   1 : L= 1801.4503143446 DL=  4.15e+01 (AVERGE_DL)=    0.1584382371 
+ITERATION   2 : L= 1803.3756083058 DL=  1.93e+00 (AVERGE_DL)=    0.0341280990 
+ITERATION   3 : L= 1803.4706051050 DL=  9.50e-02 (AVERGE_DL)=    0.0075808527 
+ITERATION   4 : L= 1803.5167206060 DL=  4.61e-02 (AVERGE_DL)=    0.0052818619 
+ITERATION   5 : L= 1803.5508251070 DL=  3.41e-02 (AVERGE_DL)=    0.0045422332 
+ITERATION   6 : L= 1803.5667999147 DL=  1.60e-02 (AVERGE_DL)=    0.0031087185 
+ITERATION   7 : L= 1803.5726922253 DL=  5.89e-03 (AVERGE_DL)=    0.0018880191 
+ITERATION   8 : L= 1803.5748620314 DL=  2.17e-03 (AVERGE_DL)=    0.0011457082 
+ITERATION   9 : L= 1803.5757409504 DL=  8.79e-04 (AVERGE_DL)=    0.0007291855 
+ITERATION  10 : L= 1803.5761214161 DL=  3.80e-04 (AVERGE_DL)=    0.0004797570 
+ITERATION  11 : L= 1803.5762901531 DL=  1.69e-04 (AVERGE_DL)=    0.0003194984 
+ITERATION  12 : L= 1803.5763653924 DL=  7.52e-05 (AVERGE_DL)=    0.0002133468 
+ITERATION  13 : L= 1803.5763989561 DL=  3.36e-05 (AVERGE_DL)=    0.0001424945 
+ITERATION  14 : L= 1803.5764139207 DL=  1.50e-05 (AVERGE_DL)=    0.0000951473 
+ITERATION  15 : L= 1803.5764205923 DL=  6.67e-06 (AVERGE_DL)=    0.0000635301 
+ITERATION  16 : L= 1803.5764235653 DL=  2.97e-06 (AVERGE_DL)=    0.0000424090 
+ITERATION  17 : L= 1803.5764248902 DL=  1.32e-06 (AVERGE_DL)=    0.0000283110 
+ITERATION  18 : L= 1803.5764254825 DL=  5.92e-07 (AVERGE_DL)=    0.0000189297 
+LOCALIZATION SUM CONVERGED
+
+
+--------------------------------------------------------------------------------
+                    LOCALIZED MOLECULAR ORBITAL COMPOSITIONS
+--------------------------------------------------------------------------------
+
+The Mulliken populations for each LMO on each atom are computed
+The LMO`s will be ordered according to atom index and type
+  (A) Strongly localized MO`s have populations of >=0.950 on one atom
+  (B) Two center bond orbitals have populations of >=0.850 on two atoms
+  (C) Other MO`s are considered to be `delocalized`
+
+FOUND  -  12 strongly local MO`s
+       -  46 two center bond MO`s
+       -   0 significantly delocalized MO`s
+
+Rather strongly localized orbitals:
+MO  26:   3P  -   0.999601
+MO  25:   3P  -   0.999659
+MO  24:   3P  -   0.999660
+MO  23:   2P  -   0.999547
+MO  22:   2P  -   0.999403
+MO  21:   2P  -   0.999593
+MO  20:   1P  -   0.999550
+MO  19:   1P  -   0.999401
+MO  18:   1P  -   0.999584
+MO  17:   0Ru -   0.968583
+MO  16:   0Ru -   0.954796
+MO  15:   0Ru -   0.956629
+Bond-like localized orbitals:
+MO  72:  43H  -   0.445598  and  40C  -   0.564612
+MO  71:  42H  -   0.452305  and  40C  -   0.561350
+MO  70:  41H  -   0.454162  and  40C  -   0.559133
+MO  69:  40C  -   0.552820  and   3P  -   0.478257
+MO  68:  39H  -   0.445046  and  36C  -   0.563405
+MO  67:  38H  -   0.444938  and  36C  -   0.563536
+MO  66:  37H  -   0.460157  and  36C  -   0.552639
+MO  65:  36C  -   0.544657  and   3P  -   0.483490
+MO  64:  35H  -   0.452232  and  32C  -   0.561359
+MO  63:  34H  -   0.454231  and  32C  -   0.559125
+MO  62:  33H  -   0.445607  and  32C  -   0.564789
+MO  61:  32C  -   0.553090  and   3P  -   0.478330
+MO  60:  31H  -   0.439292  and  28C  -   0.570532
+MO  59:  30H  -   0.451580  and  28C  -   0.560088
+MO  58:  29H  -   0.454443  and  28C  -   0.557015
+MO  57:  28C  -   0.544159  and   1P  -   0.485885
+MO  56:  27H  -   0.451649  and  24C  -   0.560134
+MO  55:  26H  -   0.439192  and  24C  -   0.570636
+MO  54:  25H  -   0.454506  and  24C  -   0.556940
+MO  53:  24C  -   0.543688  and   2P  -   0.486318
+MO  52:  23H  -   0.440357  and  20C  -   0.570588
+MO  51:  22H  -   0.440830  and  20C  -   0.568273
+MO  50:  21H  -   0.461692  and  20C  -   0.551589
+MO  49:  20C  -   0.534003  and   2P  -   0.496971
+MO  48:  19H  -   0.461737  and  16C  -   0.551558
+MO  47:  18H  -   0.440937  and  16C  -   0.568191
+MO  46:  17H  -   0.440383  and  16C  -   0.570616
+MO  45:  16C  -   0.533902  and   1P  -   0.497102
+MO  44:  15H  -   0.442710  and  12C  -   0.566924
+MO  43:  14H  -   0.455969  and  12C  -   0.555838
+MO  42:  13H  -   0.445648  and  12C  -   0.563929
+MO  41:  12C  -   0.546726  and   1P  -   0.481642
+MO  40:  11H  -   0.442984  and   4C  -   0.566547
+MO  39:  10H  -   0.455870  and   4C  -   0.556051
+MO  38:   9H  -   0.445550  and   4C  -   0.563978
+MO  37:   8H  -   0.530156  and   0Ru -   0.427164
+MO  36:   7H  -   0.535733  and   0Ru -   0.428412
+MO  35:   6H  -   0.426015  and   5H  -   0.431320
+MO  34:   4C  -   0.546493  and   2P  -   0.481812
+MO  33:   3P  -   0.815497  and   0Ru -   0.199319
+MO  32:   2P  -   0.779611  and   0Ru -   0.223434
+MO  31:   1P  -   0.016271  and   0Ru -   0.912913
+MO  30:   1P  -   0.021213  and   0Ru -   0.922702
+MO  29:   1P  -   0.778991  and   0Ru -   0.223803
+MO  28:   1P  -   0.016810  and   0Ru -   0.923384
+MO  27:   1P  -   0.018017  and   0Ru -   0.924150
+Localized MO's were stored in: 1b_pme3_Compound_2.loc
 
 -------------------------   --------------------
 FINAL SINGLE POINT ENERGY     -1481.111434358668
@@ -3736,10 +3974,11 @@ Maximum memory used throughout the entire PROP-calculation: 84.6 MB
 
 Timings for individual modules:
 
-Sum of individual times          ...      144.223 sec (=   2.404 min)
-Startup calculation              ...        6.734 sec (=   0.112 min)   4.7 %
-SCF iterations                   ...      137.404 sec (=   2.290 min)  95.3 %
-Property calculations            ...        0.085 sec (=   0.001 min)   0.1 %
+Sum of individual times          ...      145.489 sec (=   2.425 min)
+Startup calculation              ...        6.898 sec (=   0.115 min)   4.7 %
+SCF iterations                   ...      138.408 sec (=   2.307 min)  95.1 %
+Property calculations            ...        0.098 sec (=   0.002 min)   0.1 %
+Orbital localization             ...        0.085 sec (=   0.001 min)   0.1 %
 
 
 ################################################################################
@@ -3756,10 +3995,14 @@ NOTE: please remember that MaxCore and PAL settings will be ignored.
 ================================================================================
 NAME = 1b_pme3_Compound_3.inp
 |  1>   ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
-|  2>   %id "def2-qzvp"
-|  3>   * xyzfile 0 1 opt1_pme3/1b_pme3_opt.xyz
-|  4> 
-|  5>                          ****END OF INPUT****
+|  2>   %loc
+|  3>     LocMet NEWBOYS
+|  4>     Occ true
+|  5>   end
+|  6>   %id "def2-qzvp"
+|  7>   * xyzfile 0 1 opt1_pme3/1b_pme3_opt.xyz
+|  8> 
+|  9>                          ****END OF INPUT****
 ================================================================================
 
 
@@ -4203,11 +4446,11 @@ Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=   1558.828
 
 Diagonalization of the overlap matrix:
 Smallest eigenvalue                        ... 1.040e-05
-Time for diagonalization                   ...    0.407 sec
+Time for diagonalization                   ...    0.435 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.241 sec
-Total time needed                          ...    0.652 sec
+Time for construction of square roots      ...    0.256 sec
+Total time needed                          ...    0.697 sec
 
 -------------------
 DFT GRID GENERATION
@@ -4230,10 +4473,10 @@ Total number of grid points                  ...   460137
 Total number of batches                      ...     7212
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...    10458
-Grids setup in   6.8 sec
+Grids setup in   7.2 sec
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in  13.3 seconds
+SHARK setup successfully completed in  14.0 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 566.6 MB
 -------------------------------------------------------------------------------
@@ -4344,10 +4587,10 @@ Effective Fockian was calculated
 Effective Fockian was diagonalized
 Initial density was built
                       ------------------
-                      INITIAL GUESS DONE (   0.8 sec)
+                      INITIAL GUESS DONE (   0.9 sec)
                       ------------------
              **** ENERGY FILE WAS UPDATED (1b_pme3_Compound_3.en.tmp) ****
-Finished Guess after   1.2 sec
+Finished Guess after   1.3 sec
 Maximum memory used throughout the entire GUESS-calculation: 579.1 MB
 
 -------------------------------------------------------------------------------------------
@@ -4359,26 +4602,26 @@ Maximum memory used throughout the entire GUESS-calculation: 579.1 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -1481.1545992535691312     0.00e+00  5.02e-04  6.18e-02  8.86e-02  0.700  39.1
-    2    -1481.1658201376756097    -1.12e-02  4.14e-04  4.84e-02  6.25e-02  0.700  32.3
+    1    -1481.1545992535691312     0.00e+00  5.02e-04  6.18e-02  8.86e-02  0.700  42.5
+    2    -1481.1658201376756097    -1.12e-02  4.14e-04  4.84e-02  6.25e-02  0.700  34.1
                                ***Turning on AO-DIIS***
-    3    -1481.1737747623271844    -7.95e-03  3.08e-04  3.53e-02  4.40e-02  0.700  30.8
-    4    -1481.1793717694224597    -5.60e-03  7.34e-04  8.29e-02  3.08e-02  0.000  30.6
+    3    -1481.1737747623271844    -7.95e-03  3.08e-04  3.53e-02  4.40e-02  0.700  32.6
+    4    -1481.1793717694224597    -5.60e-03  7.34e-04  8.29e-02  3.08e-02  0.000  32.0
                               *** Initializing SOSCF ***
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    5    -1481.1925291380064209    -1.32e-02  1.08e-05  1.78e-03  3.93e-04    33.1
+    5    -1481.1925291380064209    -1.32e-02  1.08e-05  1.78e-03  3.93e-04    34.5
                *** Restarting incremental Fock matrix formation ***
-    6    -1481.1925284748915601     6.63e-07  8.76e-06  1.68e-03  2.40e-04    38.9
-    7    -1481.1924934581250000     3.50e-05  6.95e-06  1.10e-03  1.19e-03    25.7
-    8    -1481.1925301667008625    -3.67e-05  5.89e-07  1.11e-04  1.26e-05    24.7
-    9    -1481.1925301047888297     6.19e-08  3.18e-07  3.85e-05  2.57e-05    23.1
-   10    -1481.1925302042534440    -9.95e-08  1.07e-07  1.89e-05  2.62e-06    22.3
-   11    -1481.1925301994544952     4.80e-09  6.60e-08  1.27e-05  4.36e-06    20.6
-   12    -1481.1925302064639709    -7.01e-09  2.95e-08  5.86e-06  6.20e-07    20.4
-   13    -1481.1925302050442497     1.42e-09  2.60e-08  6.76e-06  5.42e-07    18.3
-   14    -1481.1925302054889926    -4.45e-10  4.43e-08  1.05e-05  9.05e-08    17.6
+    6    -1481.1925284748915601     6.63e-07  8.76e-06  1.68e-03  2.40e-04    40.9
+    7    -1481.1924934581250000     3.50e-05  6.95e-06  1.10e-03  1.19e-03    26.5
+    8    -1481.1925301667008625    -3.67e-05  5.89e-07  1.11e-04  1.26e-05    26.1
+    9    -1481.1925301047888297     6.19e-08  3.18e-07  3.85e-05  2.57e-05    23.9
+   10    -1481.1925302042534440    -9.95e-08  1.07e-07  1.89e-05  2.62e-06    23.4
+   11    -1481.1925301994544952     4.80e-09  6.60e-08  1.27e-05  4.36e-06    21.6
+   12    -1481.1925302064639709    -7.01e-09  2.95e-08  5.86e-06  6.20e-07    21.0
+   13    -1481.1925302050442497     1.42e-09  2.60e-08  6.76e-06  5.42e-07    22.7
+   14    -1481.1925302054889926    -4.45e-10  4.43e-08  1.05e-05  9.05e-08    21.8
                  **** Energy Check signals convergence ****
 
                *****************************************************
@@ -6441,32 +6684,147 @@ B( 40-C , 41-H ) :   0.9531 B( 40-C , 42-H ) :   0.9439 B( 40-C , 43-H ) :   0.9
 TIMINGS
 -------
 
-Total SCF time: 0 days 0 hours 6 min 35 sec 
+Total SCF time: 0 days 0 hours 7 min 6 sec 
 
-Total time                  ....     395.415 sec
-Sum of individual times     ....     379.959 sec  ( 96.1%)
+Total time                  ....     426.048 sec
+Sum of individual times     ....     406.308 sec  ( 95.4%)
 
-SCF preparation             ....       0.214 sec  (  0.1%)
-Fock matrix formation       ....     364.373 sec  ( 92.1%)
-  Startup                   ....       0.073 sec  (  0.0% of F)
-  Split-RI-J                ....     129.836 sec  ( 35.6% of F)
-  XC integration            ....     249.771 sec  ( 68.5% of F)
+SCF preparation             ....       0.250 sec  (  0.1%)
+Fock matrix formation       ....     390.028 sec  ( 91.5%)
+  Startup                   ....       0.089 sec  (  0.0% of F)
+  Split-RI-J                ....     131.313 sec  ( 33.7% of F)
+  XC integration            ....     277.938 sec  ( 71.3% of F)
     XC Preparation          ....       0.000 sec  (  0.0% of XC)
-    Basis function eval.    ....      36.874 sec  ( 14.8% of XC)
-    Density eval.           ....      86.713 sec  ( 34.7% of XC)
-    XC-Functional eval.     ....       1.668 sec  (  0.7% of XC)
-    XC-Potential eval.      ....     123.085 sec  ( 49.3% of XC)
+    Basis function eval.    ....      38.540 sec  ( 13.9% of XC)
+    Density eval.           ....     100.878 sec  ( 36.3% of XC)
+    XC-Functional eval.     ....       1.769 sec  (  0.6% of XC)
+    XC-Potential eval.      ....     134.685 sec  ( 48.5% of XC)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.451 sec  (  0.1%)
-Total Energy calculation    ....       0.079 sec  (  0.0%)
-Population analysis         ....       0.500 sec  (  0.1%)
-Orbital Transformation      ....       1.925 sec  (  0.5%)
+Density matrix formation    ....       0.509 sec  (  0.1%)
+Total Energy calculation    ....       0.106 sec  (  0.0%)
+Population analysis         ....       0.547 sec  (  0.1%)
+Orbital Transformation      ....       2.028 sec  (  0.5%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       6.174 sec  (  1.6%)
-SOSCF solution              ....       6.242 sec  (  1.6%)
-Finished LeanSCF after 395.5 sec
+DIIS solution               ....       6.383 sec  (  1.5%)
+SOSCF solution              ....       6.457 sec  (  1.5%)
+Finished LeanSCF after 426.2 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 582.5 MB
+------------------------------------------------------------------------------
+                           ORCA ORBITAL LOCALIZATION
+------------------------------------------------------------------------------
+
+Input orbitals are from                  ... 1b_pme3_Compound_3.gbw
+Output orbitals are to                   ... 1b_pme3_Compound_3.loc
+Max. number of iterations                ... 128
+Localizations seeded randomly            ... on
+Convergence tolerance                    ... 1.000e-06
+Threshold for strong local MOs           ... 9.500e-01
+Threshold for bond MOs                   ... 8.500e-01
+Operator                                 ... 0
+Orbital range for localization           ... 15 to 72
+Localization criterion                   ... NEW-BOYS
+Doing the dipole integrals               ... o.k.
+Initial value of the localization sum :  1476.344134
+ITERATION   0 : L= 1708.2827979841 DL=  2.32e+02 (AVERGE_DL)=    0.3745847982 
+ITERATION   1 : L= 1791.1146181501 DL=  8.28e+01 (AVERGE_DL)=    0.2238526168 
+ITERATION   2 : L= 1803.0667678952 DL=  1.20e+01 (AVERGE_DL)=    0.0850328208 
+ITERATION   3 : L= 1803.3209229507 DL=  2.54e-01 (AVERGE_DL)=    0.0123997506 
+ITERATION   4 : L= 1803.4225438399 DL=  1.02e-01 (AVERGE_DL)=    0.0078407042 
+ITERATION   5 : L= 1803.4884436997 DL=  6.59e-02 (AVERGE_DL)=    0.0063140180 
+ITERATION   6 : L= 1803.5353134180 DL=  4.69e-02 (AVERGE_DL)=    0.0053248790 
+ITERATION   7 : L= 1803.5583795001 DL=  2.31e-02 (AVERGE_DL)=    0.0037355150 
+ITERATION   8 : L= 1803.5664540128 DL=  8.07e-03 (AVERGE_DL)=    0.0022101499 
+ITERATION   9 : L= 1803.5692151622 DL=  2.76e-03 (AVERGE_DL)=    0.0012924345 
+ITERATION  10 : L= 1803.5702496729 DL=  1.03e-03 (AVERGE_DL)=    0.0007910994 
+ITERATION  11 : L= 1803.5706672524 DL=  4.18e-04 (AVERGE_DL)=    0.0005026123 
+ITERATION  12 : L= 1803.5708430056 DL=  1.76e-04 (AVERGE_DL)=    0.0003260733 
+ITERATION  13 : L= 1803.5709186215 DL=  7.56e-05 (AVERGE_DL)=    0.0002138799 
+ITERATION  14 : L= 1803.5709515452 DL=  3.29e-05 (AVERGE_DL)=    0.0001411297 
+ITERATION  15 : L= 1803.5709659730 DL=  1.44e-05 (AVERGE_DL)=    0.0000934250 
+ITERATION  16 : L= 1803.5709723154 DL=  6.34e-06 (AVERGE_DL)=    0.0000619429 
+ITERATION  17 : L= 1803.5709751132 DL=  2.80e-06 (AVERGE_DL)=    0.0000411403 
+ITERATION  18 : L= 1803.5709763465 DL=  1.23e-06 (AVERGE_DL)=    0.0000273152 
+ITERATION  19 : L= 1803.5709768926 DL=  5.46e-07 (AVERGE_DL)=    0.0000181754 
+LOCALIZATION SUM CONVERGED
+
+
+--------------------------------------------------------------------------------
+                    LOCALIZED MOLECULAR ORBITAL COMPOSITIONS
+--------------------------------------------------------------------------------
+
+The Mulliken populations for each LMO on each atom are computed
+The LMO`s will be ordered according to atom index and type
+  (A) Strongly localized MO`s have populations of >=0.950 on one atom
+  (B) Two center bond orbitals have populations of >=0.850 on two atoms
+  (C) Other MO`s are considered to be `delocalized`
+
+FOUND  -  12 strongly local MO`s
+       -  45 two center bond MO`s
+       -   1 significantly delocalized MO`s
+
+Rather strongly localized orbitals:
+MO  26:   3P  -   1.000450
+MO  25:   3P  -   1.000416
+MO  24:   3P  -   1.000425
+MO  23:   2P  -   1.000414
+MO  22:   2P  -   1.000404
+MO  21:   2P  -   1.000388
+MO  20:   1P  -   1.000418
+MO  19:   1P  -   1.000389
+MO  18:   1P  -   1.000404
+MO  17:   0Ru -   0.958215
+MO  16:   0Ru -   0.952817
+MO  15:   0Ru -   0.952004
+Bond-like localized orbitals:
+MO  71:  43H  -   0.474876  and  40C  -   0.526284
+MO  70:  42H  -   0.493516  and  40C  -   0.513167
+MO  69:  41H  -   0.490420  and  40C  -   0.517462
+MO  68:  40C  -   0.596083  and   3P  -   0.458673
+MO  67:  39H  -   0.478165  and  36C  -   0.527262
+MO  66:  38H  -   0.478396  and  36C  -   0.527120
+MO  65:  37H  -   0.494614  and  36C  -   0.510659
+MO  64:  36C  -   0.579577  and   3P  -   0.470161
+MO  63:  35H  -   0.493703  and  32C  -   0.512832
+MO  62:  34H  -   0.490824  and  32C  -   0.517198
+MO  61:  33H  -   0.474426  and  32C  -   0.526753
+MO  60:  32C  -   0.595826  and   3P  -   0.459053
+MO  59:  31H  -   0.472113  and  28C  -   0.531551
+MO  58:  30H  -   0.492094  and  28C  -   0.513220
+MO  57:  29H  -   0.489041  and  28C  -   0.518023
+MO  56:  28C  -   0.577765  and   1P  -   0.477280
+MO  55:  27H  -   0.492162  and  24C  -   0.513041
+MO  54:  26H  -   0.471853  and  24C  -   0.531782
+MO  53:  25H  -   0.489046  and  24C  -   0.518141
+MO  52:  24C  -   0.577392  and   2P  -   0.477853
+MO  51:  23H  -   0.469357  and  20C  -   0.534216
+MO  50:  22H  -   0.463391  and  20C  -   0.534978
+MO  49:  21H  -   0.493873  and  20C  -   0.515673
+MO  48:  20C  -   0.579888  and   2P  -   0.478591
+MO  47:  19H  -   0.493984  and  16C  -   0.515512
+MO  46:  18H  -   0.463413  and  16C  -   0.535211
+MO  45:  17H  -   0.469529  and  16C  -   0.533980
+MO  44:  16C  -   0.579619  and   1P  -   0.479134
+MO  43:  15H  -   0.471926  and  12C  -   0.531912
+MO  42:  14H  -   0.490410  and  12C  -   0.515440
+MO  41:  13H  -   0.477234  and  12C  -   0.529060
+MO  40:  12C  -   0.577027  and   1P  -   0.471461
+MO  39:  11H  -   0.473253  and   4C  -   0.530391
+MO  38:  10H  -   0.490458  and   4C  -   0.515227
+MO  37:   9H  -   0.476590  and   4C  -   0.530089
+MO  36:   8H  -   0.520495  and   0Ru -   0.370547
+MO  35:   7H  -   0.517054  and   0Ru -   0.413369
+MO  34:   4C  -   0.576527  and   2P  -   0.471401
+MO  33:   3P  -   0.852613  and   0Ru -   0.133165
+MO  32:   2P  -   0.771522  and   0Ru -   0.217970
+MO  31:   1P  -   0.018817  and   0Ru -   0.900130
+MO  30:   1P  -   0.019567  and   0Ru -   0.909715
+MO  29:   1P  -   0.016473  and   0Ru -   0.918572
+MO  28:   1P  -   0.028165  and   0Ru -   0.917893
+MO  27:   1P  -   0.769033  and   0Ru -   0.223680
+More delocalized orbitals:
+MO  72:  0Ru- 0.194 5H - 0.394 6H - 0.388
+Localized MO's were stored in: 1b_pme3_Compound_3.loc
 
 -------------------------   --------------------
 FINAL SINGLE POINT ENERGY     -1481.192530204503
@@ -6568,10 +6926,11 @@ Maximum memory used throughout the entire PROP-calculation: 525.5 MB
 
 Timings for individual modules:
 
-Sum of individual times          ...      410.422 sec (=   6.840 min)
-Startup calculation              ...       13.339 sec (=   0.222 min)   3.3 %
-SCF iterations                   ...      396.859 sec (=   6.614 min)  96.7 %
-Property calculations            ...        0.223 sec (=   0.004 min)   0.1 %
+Sum of individual times          ...      442.536 sec (=   7.376 min)
+Startup calculation              ...       14.116 sec (=   0.235 min)   3.2 %
+SCF iterations                   ...      427.650 sec (=   7.128 min)  96.6 %
+Property calculations            ...        0.249 sec (=   0.004 min)   0.1 %
+Orbital localization             ...        0.521 sec (=   0.009 min)   0.1 %
 
 --------------------------------
 SUGGESTED CITATIONS FOR THIS RUN
@@ -6649,4 +7008,4 @@ List of optional additional citations
      Chem. Phys. Lett. 2000 325(1-3), 93-98
      doi.org/10.1016/s0009-2614(00)00662-x
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 10 minutes 24 seconds 874 msec
+TOTAL RUN TIME: 0 days 0 hours 11 minutes 0 seconds 998 msec

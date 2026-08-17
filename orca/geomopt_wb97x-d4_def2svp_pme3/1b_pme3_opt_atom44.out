@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Mon Jul 20 19:14:45 2026
-  * Host name:     c1-33
-  * Process ID:    3923127
+  * Starting time: Wed Jul 22 14:58:18 2026
+  * Host name:     c1-8
+  * Process ID:    4052736
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/geomopt_wb97x-d4_def2svp_pme3
   ***********************************
 
@@ -199,6 +199,10 @@ The basis set includes element-specific modifications.
 
 WARNING: Frozen-Core approximation turned on, but there are no core electrons.
   ===> : Turning off frozen-core approximation
+
+WARNING: Old DensityContainer found on disk!
+         Will remove this file - 
+         If you want to keep old densities, please start your calculation with a different basename. 
 
 
 WARNING: ROHF and Conv is not properly working
@@ -501,7 +505,7 @@ Total number of grid points                  ...    11810
 Total number of batches                      ...      185
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...    11810
-Grids setup in   0.3 sec
+Grids setup in   0.2 sec
 Initializing property integral containers    ... done (  0.0 sec)
 
 SHARK setup successfully completed in   0.3 seconds
@@ -616,7 +620,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
                                ***Turning on AO-DIIS***
     3    -91.9318617755882883    -2.36e-01  7.98e-02  1.12e+00  1.29e-01  0.700   0.0
     4    -92.5074618092707226    -5.76e-01  5.64e-02  7.69e-01  7.09e-02  0.700   0.0
-    5    -92.9458569313877376    -4.38e-01  1.34e-01  1.82e+00  3.35e-02  0.000   0.1
+    5    -92.9458569313877376    -4.38e-01  1.34e-01  1.82e+00  3.35e-02  0.000   0.0
     6    -94.0287390648831263    -1.08e+00  7.27e-04  1.11e-02  8.36e-02  0.000   0.0
     7    -94.0271065833472619     1.63e-03  8.73e-06  1.19e-04  8.51e-02  0.000   0.0
     8    -94.0271440510647238    -3.75e-05  8.37e-06  1.14e-04  8.51e-02  0.000   0.0
@@ -914,22 +918,22 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.770 sec
-Sum of individual times     ....       0.682 sec  ( 88.5%)
+Total time                  ....       0.605 sec
+Sum of individual times     ....       0.566 sec  ( 93.5%)
 
-SCF preparation             ....       0.035 sec  (  4.5%)
-Fock matrix formation       ....       0.280 sec  ( 36.4%)
-  Startup                   ....       0.006 sec  (  2.2% of F)
-  Coulomb+Exchange Fock     ....       0.162 sec  ( 57.8% of F)
+SCF preparation             ....       0.027 sec  (  4.4%)
+Fock matrix formation       ....       0.253 sec  ( 41.8%)
+  Startup                   ....       0.005 sec  (  2.1% of F)
+  Coulomb+Exchange Fock     ....       0.149 sec  ( 59.0% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.133 sec  ( 17.3%)
-Total Energy calculation    ....       0.011 sec  (  1.5%)
+Density matrix formation    ....       0.091 sec  ( 15.1%)
+Total Energy calculation    ....       0.010 sec  (  1.6%)
 Population analysis         ....       0.000 sec  (  0.0%)
-Orbital Transformation      ....       0.008 sec  (  1.0%)
+Orbital Transformation      ....       0.007 sec  (  1.2%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.200 sec  ( 26.0%)
-SOSCF solution              ....       0.015 sec  (  1.9%)
-Finished LeanSCF after   0.8 sec
+DIIS solution               ....       0.165 sec  ( 27.2%)
+SOSCF solution              ....       0.013 sec  (  2.1%)
+Finished LeanSCF after   0.6 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 5.8 MB
 
@@ -1105,9 +1109,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        1.212 sec (=   0.020 min)
-Startup calculation              ...        0.324 sec (=   0.005 min)  26.7 %
-SCF iterations                   ...        0.845 sec (=   0.014 min)  69.7 %
-Property calculations            ...        0.044 sec (=   0.001 min)   3.6 %
+Sum of individual times          ...        0.983 sec (=   0.016 min)
+Startup calculation              ...        0.291 sec (=   0.005 min)  29.6 %
+SCF iterations                   ...        0.664 sec (=   0.011 min)  67.5 %
+Property calculations            ...        0.028 sec (=   0.000 min)   2.9 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 333 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 97 msec

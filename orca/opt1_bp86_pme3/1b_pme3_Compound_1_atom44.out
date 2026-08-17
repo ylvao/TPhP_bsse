@@ -171,9 +171,9 @@ interface, adapt or use parts of their codes:
 
 
   ***********************************
-  * Starting time: Tue Jul 21 13:06:08 2026
-  * Host name:     c1-35
-  * Process ID:    1904144
+  * Starting time: Tue Aug  4 15:26:49 2026
+  * Host name:     c1-17
+  * Process ID:    1364671
   * Working dir.:  /cluster/projects/nn14654k/ylvaos/TPhP_bsse/orca/opt1_bp86_pme3
   ***********************************
 
@@ -611,7 +611,7 @@ Maximum memory used throughout the entire GUESS-calculation: 3.7 MB
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
 -------------------------------------------------------------------------------------------
                ***  Starting incremental Fock matrix formation  ***
-    1    -90.8782577680816530     0.00e+00  1.69e-01  2.35e+00  5.45e-01  0.700   0.2
+    1    -90.8782577680816530     0.00e+00  1.69e-01  2.35e+00  5.45e-01  0.700   0.1
     2    -91.6956450305652595    -8.17e-01  1.16e-01  1.64e+00  3.60e-01  0.700   0.0
                                ***Turning on AO-DIIS***
     3    -91.9318617755882883    -2.36e-01  7.98e-02  1.12e+00  1.29e-01  0.700   0.0
@@ -914,21 +914,21 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.693 sec
-Sum of individual times     ....       0.653 sec  ( 94.2%)
+Total time                  ....       0.675 sec
+Sum of individual times     ....       0.612 sec  ( 90.6%)
 
-SCF preparation             ....       0.024 sec  (  3.5%)
-Fock matrix formation       ....       0.381 sec  ( 55.0%)
-  Startup                   ....       0.005 sec  (  1.3% of F)
-  Coulomb+Exchange Fock     ....       0.279 sec  ( 73.1% of F)
+SCF preparation             ....       0.039 sec  (  5.8%)
+Fock matrix formation       ....       0.276 sec  ( 40.8%)
+  Startup                   ....       0.007 sec  (  2.4% of F)
+  Coulomb+Exchange Fock     ....       0.161 sec  ( 58.4% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.076 sec  ( 10.9%)
-Total Energy calculation    ....       0.009 sec  (  1.3%)
+Density matrix formation    ....       0.085 sec  ( 12.6%)
+Total Energy calculation    ....       0.012 sec  (  1.8%)
 Population analysis         ....       0.000 sec  (  0.0%)
-Orbital Transformation      ....       0.007 sec  (  1.0%)
+Orbital Transformation      ....       0.008 sec  (  1.2%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.143 sec  ( 20.7%)
-SOSCF solution              ....       0.012 sec  (  1.8%)
+DIIS solution               ....       0.170 sec  ( 25.2%)
+SOSCF solution              ....       0.022 sec  (  3.3%)
 Finished LeanSCF after   0.7 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 5.8 MB
@@ -1105,9 +1105,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        1.051 sec (=   0.018 min)
-Startup calculation              ...        0.272 sec (=   0.005 min)  25.9 %
-SCF iterations                   ...        0.752 sec (=   0.013 min)  71.5 %
-Property calculations            ...        0.027 sec (=   0.000 min)   2.5 %
+Sum of individual times          ...        1.224 sec (=   0.020 min)
+Startup calculation              ...        0.302 sec (=   0.005 min)  24.7 %
+SCF iterations                   ...        0.817 sec (=   0.014 min)  66.7 %
+Property calculations            ...        0.105 sec (=   0.002 min)   8.6 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 155 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 1 seconds 384 msec
