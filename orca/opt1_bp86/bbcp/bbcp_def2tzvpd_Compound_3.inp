@@ -1,0 +1,4 @@
+  ! BP86 def2-TZVPD VeryTightSCF defgrid3 NOAUTOSTART
+  %pal nprocs 32 end
+  %id "1b"
+  * xyzfile 0 1 xyz/1b_opt1.xyz
