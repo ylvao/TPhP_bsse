@@ -2,8 +2,8 @@ Previously:
 
 
 Running when left:
-> Geomopt for PtBu3 15h
+> Single point for PtBu3 15h
+> Mrchem init guess ptbu3 finished
 
 Next up:
-> MRChem init guess ptbu3
-> Single point PtBu3 15h after geom opt currently running
+> Missing freq calc on 15h_ptbu3 geom opt

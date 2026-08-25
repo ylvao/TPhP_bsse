@@ -5,7 +5,7 @@
 #SBATCH --error=%j.err
 
 
-#SBATCH --job-name=orca_func_tester
+#SBATCH --job-name=bbcp_pet3
 #SBATCH --time=0-20:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=32
@@ -13,19 +13,20 @@
 #SBATCH --mem-per-cpu=3G
 export OMP_NUM_THREADS=1
 
-#Modules
+#Mxyzodules
 module --force purge --silent
 module load NRIS/CPU
 module load OpenMPI/5.0.9-GCC-14.3.0
 export CMAKE_TLS_VERIFY=0
 
 # dir="orca/opt1_bp86_ptbu3/for_mrchem_init_guess"
+dir="orca/opt1_bp86_pet3/bbcp"
 # dir="orca/opt1_bp86_ptbu3"
-dir="orca/geomopt_wb97x-d4_def2svp_ptbu3"
+# dir="orca/geomopt_wb97x-d4_def2svp_ptbu3"
 # name="15h_ptbu3_opt"
-# name="TPhP_ptbu3"
-# name="x2csvp_pme3"
-name="15h_ptbu3_opt"
+name="bbcp_def2qzvp"
+# name="x2csvp_ptbu3"
+# name="bbcp_def2qzvp"
 
 # cd .. # include if called from runscripts/olivia
 # cd ..

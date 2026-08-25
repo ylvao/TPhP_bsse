@@ -1,0 +1,3 @@
+  ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
+  %id "TPhP_1b_geo_basis"
+  * xyzfile 0 1 opt1_ph3/TPhP_1b_ph3_geo_basis.xyz

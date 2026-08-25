@@ -1,0 +1,3 @@
+  ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
+  %id "TPhP"
+  * xyzfile 0 1 opt1_pet3/TPhP_pet3_opt.xyz

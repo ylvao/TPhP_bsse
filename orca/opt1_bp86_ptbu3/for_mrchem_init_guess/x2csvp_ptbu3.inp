@@ -1,0 +1,37 @@
+#
+# Calculations for mrchem init guess
+#
+
+%Compound
+
+New_Step
+! BP86 X2C-SVPall VeryTightSCF defgrid3 NOAUTOSTART
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+%id "def2-svp"
+* xyzfile 0 1 opt1_ptbu3/TPhP_ptbu3_opt.xyz
+Step_End
+
+New_Step
+! BP86 X2C-SVPall VeryTightSCF defgrid3 NOAUTOSTART
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+%id "def2-tzvp"
+* xyzfile 0 1 opt1_ptbu3/15h_ptbu3_opt.xyz
+Step_End
+
+New_Step
+! BP86 X2C-SVPall VeryTightSCF defgrid3 NOAUTOSTART
+%loc
+  LocMet NEWBOYS
+  Occ true
+end
+%id "def2-qzvp"
+* xyzfile 0 1 opt1_ptbu3/1b_ptbu3_opt.xyz
+Step_End
+
+EndRun

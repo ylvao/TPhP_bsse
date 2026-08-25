@@ -10,13 +10,13 @@
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "15h"
-* xyzfile 0 1 opt1_pet3/15h_opt1.xyz
+* xyzfile 0 1 opt1_pet3/15h_pet3_opt.xyz
 Step_End
 
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "TPhP"
-* xyzfile 0 1 opt1_pet3/TPhP_opt1.xyz
+* xyzfile 0 1 opt1_pet3/TPhP_pet3_opt.xyz
 Step_End
 
 # --------------------------------------------
@@ -25,7 +25,7 @@ Step_End
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "1b"
-* xyzfile 0 1 opt1_pet3/1b_opt1.xyz
+* xyzfile 0 1 opt1_pet3/1b_pet3_opt.xyz
 Step_End
 
 # --------------------------------------------
@@ -34,13 +34,13 @@ Step_End
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "15h_1b_geo"
-* xyzfile 0 1 opt1_pet3/15h_1b_geo.xyz
+* xyzfile 0 1 opt1_pet3/15h_1b_pet3_geo.xyz
 Step_End
 
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "TPhP_1b_geo"
-* xyzfile 0 1 opt1_pet3/TPhP_1b_geo.xyz
+* xyzfile 0 1 opt1_pet3/TPhP_1b_pet3_geo.xyz
 Step_End
 
 # --------------------------------------------
@@ -49,13 +49,13 @@ Step_End
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "15h_1b_geo_basis"
-* xyzfile 0 1 opt1_pet3/15h_1b_geo_basis.xyz
+* xyzfile 0 1 opt1_pet3/15h_1b_pet3_geo_basis.xyz
 Step_End
 
 New_Step
 ! BP86 def2-QZVP VeryTightSCF defgrid3 NOAUTOSTART
 %id "TPhP_1b_geo_basis"
-* xyzfile 0 1 opt1_pet3/TPhP_1b_geo_basis.xyz
+* xyzfile 0 1 opt1_pet3/TPhP_1b_pet3_geo_basis.xyz
 Step_End
 
 EndRun
