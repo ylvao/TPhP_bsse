@@ -5,7 +5,7 @@
 #SBATCH --error=%j.err
 
 
-#SBATCH --job-name=bbcp_qzvpd
+#SBATCH --job-name=x2c_finitnuc
 #SBATCH --time=0-20:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=32
@@ -24,7 +24,7 @@ dir="orca/opt1_bp86/bbcp"
 # dir="orca/opt1_bp86_ptbu3"
 # dir="orca/geomopt_wb97x-d4_def2svp_ptbu3"
 # name="15h_ptbu3_opt"
-name="bbcp_def2qzvpd"
+name="bbcp_x2ctzvp_x2c_finitenuc"
 # name="x2csvp_ptbu3"
 # name="bbcp_def2qzvp"
 

@@ -1,0 +1,3 @@
+  ! BP86 X2C x2c-tzvpall X2C/J VeryTightSCF defgrid3 NOAUTOSTART
+  %id "15h_1b_geo_basis"
+  * xyzfile 0 1 xyz/15h_1b_geo_basis.xyz

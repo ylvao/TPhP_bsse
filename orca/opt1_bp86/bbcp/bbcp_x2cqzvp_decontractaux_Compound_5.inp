@@ -1,0 +1,3 @@
+  ! BP86 x2c-qzvpall VeryTightSCF DecontractAux defgrid3 NOAUTOSTART
+  %id "TPhP_1b_geo"
+  * xyzfile 0 1 xyz/TPhP_1b_geo.xyz

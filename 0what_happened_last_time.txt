@@ -2,8 +2,11 @@ Previously:
 
 
 Running when left:
-> Single point for PtBu3 15h
-> Mrchem init guess ptbu3 finished
+> x2c for all 3 x2c basis sets (svp done)
+> decontract for all 3 x2c basis sets (svp done)
+> x2c and finitenuc for x2c-tzvp, will not run
 
 Next up:
+
+For later:
 > Missing freq calc on 15h_ptbu3 geom opt
